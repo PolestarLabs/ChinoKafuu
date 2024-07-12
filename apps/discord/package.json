@@ -41,7 +41,7 @@
     "sirius": "https://github.com/RabbitHouseCorp/Sirius#f21a5729eb09d011c98aab67127a67c2420c12f7",
     "tsc-compile-projects": "github:RabbitHouseCorp/tsc-compile-projects#main",
     "usagiapi": "github:DanielaGC/UsagiAPI#master",
-    "ws": "^8.11.0"
+    "ws": "^8.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
