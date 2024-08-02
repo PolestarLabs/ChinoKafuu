@@ -29,7 +29,7 @@
     "anilist-node": "^1.13.1",
     "axios": "^1.2.1",
     "chalk": "^4.1.2",
-    "eris": "github:RabbitHouseCorp/eris#dev",
+    "eris": "github:RabbitHouseCorp/eris#a016d1a0b8d74f3afa1e46ce3639230578253dda",
     "eslint-plugin-node": "^11.1.0",
     "events": "^3.3.0",
     "hound": "^1.0.5",
