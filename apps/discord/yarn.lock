@@ -2650,10 +2650,10 @@ available-typed-arrays@^1.0.7:
   dependencies:
     possible-typed-array-names "^1.0.0"
 
-axios@^1.2.0, axios@^1.2.1, axios@^1.4.0, axios@^1.6.2:
-  version "1.6.8"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.8.tgz#66d294951f5d988a00e87a0ffb955316a619ea66"
-  integrity sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==
+axios@^1.2.0, axios@^1.4.0, axios@^1.6.2, axios@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.4.tgz#4c8ded1b43683c8dd362973c393f3ede24052aa2"
+  integrity sha512-DukmaFRnY6AzAALSH4J2M3k6PkaC+MfaAGdEERRWcC9q3/TWQwLpHR8ZRLKTdQ3aBDL64EdluRDjJqKw+BPZEw==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.0"
@@ -3190,9 +3190,10 @@ entities@^4.2.0, entities@^4.4.0:
   resolved "https://registry.yarnpkg.com/entities/-/entities-4.5.0.tgz#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
   integrity sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==
 
-"eris@github:RabbitHouseCorp/eris#dev":
+"eris@github:RabbitHouseCorp/eris#a016d1a0b8d74f3afa1e46ce3639230578253dda":
   version "0.16.3-custom"
-  resolved "https://codeload.github.com/RabbitHouseCorp/eris/tar.gz/2522191e4d2c2b1d8452020b676a7d0603ea36d9"
+  uid a016d1a0b8d74f3afa1e46ce3639230578253dda
+  resolved "https://codeload.github.com/RabbitHouseCorp/eris/tar.gz/a016d1a0b8d74f3afa1e46ce3639230578253dda"
   dependencies:
     ws "^8.5.0"
   optionalDependencies:
