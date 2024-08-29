@@ -1,6 +1,6 @@
 {
   "name": "@chinokafuu/discord",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "main": "index.js",
   "type": "module",
   "private": true,
