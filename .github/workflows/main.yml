@@ -1,16 +1,15 @@
 name: ci
 
-on: 
+on:
   - pull_request
   - push
 
 jobs:
   ci:
-    runs-on: [ubuntu-latest]
+    runs-on: ubuntu-latest
     strategy:
-        matrix:
-           os: [ubuntu-latest]
-           node: [14.x, 16.x, 17.x]
+      matrix:
+        node: [18.x]
     steps:
       - name: Checkout 📝
         uses: actions/checkout@master
@@ -27,9 +26,16 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+          cache: "yarn"
 
       - name: Install dependencies ⚙
-        run: npm install --force
+        run: yarn install
+
+      - name: Install dependencies 📦🛠️
+        run: yarn installPackage
 
       - name: Run tests 🧪
-        run: npm test
+        run: yarn test
+
+      - name: Run Lint
+        run: yarn lint

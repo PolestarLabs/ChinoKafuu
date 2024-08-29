@@ -1,0 +1,16 @@
+{
+	"interaction function": {
+		"prefix": "interactionFunction",
+		"body": [
+			"import { defineInteraction, defineInteractionDefault, defineInteractionFunction } from '../../structures/InteractionFunction';\n\nexport default defineInteractionDefault(\n  defineInteraction({\n    name: '$1',\n  }),\n  defineInteractionFunction(({ ctx }) => {$0 })\n)"
+		],
+		"description": ""
+	},
+	"interaction class": {
+		"prefix": "interactionClass",
+		"body": [
+			"import { InteractionFunction } from '../../structures/InteractionFunction';\n\nexport default class $1Interaction extends InteractionFunction {\n  constructor() {\n    super({\n      name: '$2'\n    })\n  }\n\n  interactionFunction({  }) {\n    $0\n  }\n}"
+		],
+		"description": ""
+	}
+}

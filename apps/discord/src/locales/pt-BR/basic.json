@@ -1,0 +1,129 @@
+{
+  "timestamp": {
+    "year": "{{0}} ano{space}{{1}}{space}",
+    "years": "{{0}} anos{space}{{1}}{space}",
+    "week": "{{0}} semana{space}{{1}}{space}",
+    "weeks": "{{0}} semanas{space}{{1}}{space}",
+    "day": "{{0}} dia{space}{{1}}{space}",
+    "days": "{{0}} dias{space}{{1}}{space}",
+    "hour": "{{0}} hora{space}{{1}}{space}",
+    "hours": "{{0}} horas{space}{{1}}{space}",
+    "minute": "{{0}} minuto{space}{{1}}{space}",
+    "minutes": "{{0}} minutos{space}{{1}}{space}",
+    "second": "{{0}} segundo{space}{{1}}{space}",
+    "seconds": "{{0}} segundos{space}{{1}}{space}",
+    "prefix": "e",
+    "notime": "sem horário"
+  },
+  "profiles": {
+    "default": {
+      "name": "Padrão",
+      "shortDescription": "É apenas o perfil padrão.",
+      "description": "É apenas o perfil padrão."
+    },
+    "modern": {
+      "name": "Caderno",
+      "shortDescription": "Acho que eu vou colocar uma anotação no meu caderno.",
+      "description": "Acho que eu vou colocar uma anotação no meu caderno."
+    },
+    "profile_2": {
+      "name": "Moderno",
+      "shortDescription": "O perfil padrão, porém mais moderno.",
+      "description": "O perfil padrão, porém mais moderno."
+    }
+  },
+  "message": {
+    "interactionRateLimit": "Oops! Fique calmo, parece haver uma interação funcionando simultaneamente, então você foi limitado por alguns segundos... Tente novamente!",
+    "interactionExpired": "Esta interação expirou. Tente executar o comando e repetir o mesmo processo.",
+    "interactionError": "An error occurred in the interaction. I am forwarding the error to the team to analyze and solve the problem.",
+    "interactionWithoutPermission": "Esta interação não é permitida para realizar processos como: {{0}}",
+    "interactionSuspectedBug": "Oops! We detected something odd while working on the interaction. I am forwarding it to the team to investigate and resolve the issue.",
+    "interactionLimited": "Esta interação é limitada a usuários {{0}}. E é por isso que essa interação está bloqueada para você.",
+    "interactionOtherUser": "Oops! Esta interação foi iniciada por outra pessoa, portanto você não tem permissão para controlá-la.",
+    "interactionBanned": "This interaction is blocked because you are banned from using ChinoKafuu commands or resources.",
+    "interactionBlockedForMaintenance": "Interaction blocked to do maintenance.",
+    "interactionTimeout": "Percebemos que essa interação levou muito tempo para responder. Tente repetir o mesmo processo.",
+    "interactionBlockedToAttempt": "Essa interação foi bloqueada porque existe uma suspeita de falha e leva muito tempo para carregar outras funções. Estou encaminhando isso para a equipe para analisar o problema. Tente novamente mais tarde.",
+    "buttonInteractionExpired": "This interaction button has expired. Try running command and repeating the same process.",
+    "menuInteractionExpired": "This menu selection interaction has expired. Try to run command and repeat the same process.",
+    "itemsSelectedDoMenuLimited": "Uau! Há muitos itens selecionados, você pode selecionar apenas {{0}} até {{1}}",
+    "rateLimit": "Atualmente, existem muitas pessoas usando este recurso agora, por isso ele foi limitado para evitar sobrecarregar o serviço. Tente mais tarde."
+  },
+  "page": {
+    "backPage": "Voltar à página anterior",
+    "nextPage": "Próxima página"
+  },
+  "permissions": {
+    "permissionUserRequired": "Você precisa ter as seguintes permissões para usar esse comando: {{0}}.",
+    "permissionBotRequired": "Eu preciso ter as seguintes permissões para usar esse comando: {{0}}.",
+    "title": "Permissões"
+  },
+  "onMention": "<:chino_rawr:751215250245943318> **|** Olá, {{0}}. Meu prefixo é `{{1}}`. Se você quer saber o que eu posso fazer, use `{{1}}help`.",
+  "missingBotPermission": "eu não tenho permissão para {{perm}}. Verifique as minhas permissões e tente novamente.",
+  "missingUserPermission": "você não tem permissão para {{perm}}. Você não pode executar este comando.",
+  "missingBotPermissionOnChannel": "Hey {{0}} eu não tenho permissão para {{1}} no {{2}}. Por favor, verifique as minhas permissões e tente novamente.",
+  "invalidUser": "Não consigo encontrar essa pessoa. Tem certeza que esse usuário existe?",
+  "invalidRole": "Não consigo encontrar este cargo. Tem certeza de que esse cargo existe neste servidor?",
+  "invalidEmoji": "Eu não consigo encontrar este emoji. Você tem certeza que este emoji é desse servidor?",
+  "noReason": "Nenhum motivo",
+  "clickHere": "Clique aqui",
+  "punishment": {
+    "banned": "{{0}} | Banido",
+    "unbanned": "{{0}} | Desbanido",
+    "kicked": "{{0}} | Expulso",
+    "softBan": "{{0}} | Soft Banido",
+    "muted": "{{0}} | Silenciado",
+    "unmuted": "{{0}} | Silenciamento removido",
+    "embed": {
+      "memberName": "Nome de usuário",
+      "memberID": "ID do usuário",
+      "staffName": "Quem puniu",
+      "reason": "Motivo"
+    },
+    "reason": "Punido por: {{0}} - Motivo: {{1}}",
+    "bigReason": "você deve digitar um motivo menor, esse motivo é muito grande para mim.",
+    "selfPunishment": "desculpe, mas como você não pode se punir no Discord normal, você não pode se punir por mim.",
+    "ownerPunish": "você perdeu sua cabeça? Você não pode punir está pessoa, ele(a) é o dono desse servidor.",
+    "error": "eu não pude punir este membro. Provavelmente os cargos dele são maiores do que os meus. Verifique os cargos e tente novamente."
+  },
+  "missingArgs": "Argumentos inválidos! Use `{{prefix}}{{commandName}}` para ver o uso correto.",
+  "howToUse": "Como usar?",
+  "aliases": "Alternativas",
+  "addedToGuild": {
+    "thanks": "Obrigada por me adicionar",
+    "description": "Whoa {{0}}! Obrigada por me adicionar em `{{1}}`, deixe-me me apresentar.\n\nEu sou uma pequena bot com muitas funções que podem ser úteis, como... **moderação**, **diversão** e **utilitários**. Por padrão, meu prefixo é `{{2}}`\n\nSe precisar de ajuda, entre no meu servidor de suporte usando `{{2}}ajuda` ou `{{2}}convite`. Divirta-se e te vejo em breve.",
+    "guildSaved": "O servidor {{0}} salvo com sucesso no banco de dados!"
+  },
+  "noAliases": "Esse comando não possui alternativas.",
+  "voice": {
+    "authorAreNotInVoiceChannel": "você precisa estar em um canal de voz, mas você não está.",
+    "playerAlreadyPlaying": "a rádio já está tocando comigo.",
+    "clientAreNotInVoiceChannel": "eu não estou em um canal de voz agora, use `/animu play`.",
+    "playerNotFound": "eu não estou tocando nada agora, use `/animu play`.",
+    "maxVolume": "ei, fica frio aí! O volume máximo permitido é `100`.",
+    "minVolume": "ei, calma aí! O volume mínimo permitido é `5`."
+  },
+  "boolean": {
+    "true": "Sim",
+    "false": "Não"
+  },
+  "guildban": {
+    "title": "Servidor Banido",
+    "explain": "`{{0}}` está banido, de acordo com o motivo abaixo. Você acha que o banimento foi injusto? Entre em meu [servidor de suporte](https://discord.gg/Jr57UrsXeC) e solicite uma revisão.",
+    "reason": "Motivo"
+  },
+  "cooldown": "por favor, aguarde mais {{0}} segundos para executar este comando novamente!",
+  "cooldownLowThanZero": "alguns",
+  "disabledCommand": "desculpe, mas este comando teve alguns problemas e está desativado por um tempo\n**Motivo:** `{{0}}`",
+  "blockedChannel": "você não pode usar comandos aqui, vá para {{0}} e tente novamente.",
+  "migrate": {
+    "migrateTitle": "Os comandos em / estão aqui!",
+    "migrateToSlashCommand": "Olá! Após Janeiro de 2022, eu irei responder apenas por comandos em barra, por favor, se você deseja continuar me usando, então você precisa me re-adicionar, você pode fazer isso clicando [aqui](https://discord.com/oauth2/authorize?client_id={{0}}&permissions=1378654604670&scope=bot%20applications.commands&guild_id={{1}}), você não precisa me expulsar do servidor. Obrigada! Se deseja parar de receber esta mensagem, digite `{{2}}stopnotify`. <a:chino_petpet:760564885280784405>",
+    "disabledTitle": "Comandos normais foram descontinuados",
+    "disabledToSlashCommands": "É hora de dizer adeus aos comandos normais, agora apenas comandos em / estão disponíveis. Por agora, este comando foi descontinuado, mas você pode me usar normalmente usando comandos em /, digite `/help` para ver minha lista de comandos.",
+    "howToUseTitle": "Como usar?",
+    "howToUseSlash": "1.) Para usuários antigos que não me re-convidaram para este servidor, você pode me re-convidar clicando [aqui](https://discord.com/oauth2/authorize?client_id={{0}}&permissions=1378654604670&scope=bot%20applications.commands&guild_id={{1}}), é importante que você tenha certeza de que já me re-convidou.\n2.) O usuário precisa ter a permissão de `Usar comandos de aplicativos` para usar meus comandos.\n3.) Se você não consegue ver os comandos em /, tenha certeza que você ativou `Configurações de usuário ->Texto e imagens -> Use comandos de barra e preveja emojis, menções e sintaxe de markdown enquanto digita`",
+    "needSupportTitle": "Ainda confuso em como usar o bot?",
+    "needSupportSlash": "Se você ainda está confuso em como me usar corretamente, sinta-se livre para entrar em nosso [servidor de suporte](https://discord.gg/Jr57UrsXeC) para conseguir ajuda de nossa equipe de suporte."
+  }
+}

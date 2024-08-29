@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "typeRoots": [
+      "./apps/discord/types/index.d.ts"
+    ],
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}

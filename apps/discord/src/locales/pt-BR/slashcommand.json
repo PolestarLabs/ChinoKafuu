@@ -1,0 +1,952 @@
+{
+  "bank": {
+    "description": "bank.description",
+    "name": "bank"
+  },
+  "daily": {
+    "options": {},
+    "name": "daily",
+    "description": "You can get your daily yens by using this command"
+  },
+  "jankenpon": {
+    "options": {
+      "option0": {
+        "name": "choice",
+        "description": "Choose one of these options.",
+        "choices": {
+          "choice0": {
+            "name": "rock"
+          },
+          "choice1": {
+            "name": "paper"
+          },
+          "choice2": {
+            "name": "scissors"
+          }
+        }
+      },
+      "option1": {
+        "name": "value",
+        "description": "Value that you wanna bet on the game.",
+        "choices": {}
+      }
+    },
+    "name": "jankenpon",
+    "description": "Plays jankenpon and win or lose yens"
+  },
+  "shop": {
+    "options": {
+      "option0": {
+        "name": "profile",
+        "description": "You can buy a new profile that is in my stock.",
+        "choices": {}
+      }
+    },
+    "name": "shop",
+    "description": "The shop command that allows you to buy new things to customize your account."
+  },
+  "yens": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention of the member.",
+        "choices": {}
+      }
+    },
+    "name": "yens",
+    "description": "Shows you current balance or someone else's balance."
+  },
+  "baka": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "baka",
+    "description": "Calls a user baka"
+  },
+  "cat": {
+    "options": {},
+    "name": "cat",
+    "description": "Sends an image or gif of a cat"
+  },
+  "clap": {
+    "options": {
+      "option0": {
+        "name": "text",
+        "description": "Let's clap, clap, clap, clap, clap with your friends.",
+        "choices": {}
+      }
+    },
+    "name": "clap",
+    "description": "Let's clap, clap, clap, clap, clap with your friends."
+  },
+  "dance": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "dance",
+    "description": "Calls a user dance"
+  },
+  "fakemsg": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      },
+      "option1": {
+        "name": "text",
+        "description": "Enter random text",
+        "choices": {}
+      }
+    },
+    "name": "fakemsg",
+    "description": "Prank on someone with a fake message through webhook."
+  },
+  "dog": {
+    "options": {},
+    "name": "dog",
+    "description": "Sends an image or gif of a dog"
+  },
+  "feed": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "feed",
+    "description": "Feeds a user"
+  },
+  "hug": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "hug",
+    "description": "Hug a friend and make them happy."
+  },
+  "kiss": {
+    "options": {
+      "option0": {
+        "name": "usuário",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "kiss",
+    "description": "Kiss your true love (or not)."
+  },
+  "congaparrot": {
+    "options": {
+      "option0": {
+        "name": "quantity",
+        "description": "Quantity of parrots.",
+        "choices": {}
+      }
+    },
+    "name": "congaparrot",
+    "description": "Sends funny parrots"
+  },
+  "pat": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "pat",
+    "description": "Pat, pat, pat me, please! Give a pat to your friend."
+  },
+  "poke": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "poke",
+    "description": "Poke someone on your server."
+  },
+  "slap": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "slap",
+    "description": "Slap someone on your server."
+  },
+  "tickle": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "tickle",
+    "description": "Hahahaha, it tickles! Make it stop! Tickle someone on your server."
+  },
+  "minecraft": {
+    "options": {
+      "option0": {
+        "name": "avatar",
+        "description": "Shows a player's minecraft avatar.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "body",
+        "description": "Shows a player's minecraft avatar.",
+        "choices": {}
+      },
+      "option2": {
+        "name": "head",
+        "description": "Shows a player's minecraft head.",
+        "choices": {}
+      },
+      "option3": {
+        "name": "skin",
+        "description": "Shows a player's minecraft skin.",
+        "choices": {}
+      },
+      "option4": {
+        "name": "query",
+        "description": "Show a Minecraft server info",
+        "choices": {}
+      }
+    },
+    "name": "minecraft",
+    "description": "Minecraft Command"
+  },
+  "anime": {
+    "options": {
+      "option0": {
+        "name": "name",
+        "description": "Insert anime name to search result.",
+        "choices": {}
+      }
+    },
+    "name": "anime",
+    "description": "Shows some information about a anime."
+  },
+  "animu": {
+    "options": {
+      "option0": {
+        "name": "leave",
+        "description": "Disconnect Chino Kafuu in the voice channel.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "nowplaying",
+        "description": "Show what's playing on Animu",
+        "choices": {}
+      },
+      "option2": {
+        "name": "volume",
+        "description": "Change the volume sound.",
+        "choices": {}
+      },
+      "option3": {
+        "name": "play",
+        "description": "Play Animu music on voice channel.",
+        "choices": {}
+      }
+    },
+    "name": "animu",
+    "description": "Starts the Animu Radio"
+  },
+  "botinfo": {
+    "options": {},
+    "name": "botinfo",
+    "description": "Mostra mais informações sobre mim."
+  },
+  "choose": {
+    "options": {
+      "option0": {
+        "name": "choose",
+        "description": "Use `,` to separate",
+        "choices": {}
+      }
+    },
+    "name": "choose",
+    "description": "Makes the bot choose something"
+  },
+  "invite": {
+    "options": {},
+    "name": "invite",
+    "description": "Shows how you can add me in your server."
+  },
+  "manga": {
+    "options": {
+      "option0": {
+        "name": "name",
+        "description": "Shows some information about an manga",
+        "choices": {}
+      }
+    },
+    "name": "manga",
+    "description": "Shows some information about an manga"
+  },
+  "ping": {
+    "options": {
+      "option0": {
+        "name": "options",
+        "description": "Choose one of these options to view.",
+        "choices": {
+          "choice0": {
+            "name": "shards"
+          },
+          "choice1": {
+            "name": "clusters"
+          }
+        }
+      }
+    },
+    "name": "ping",
+    "description": "View the latency of Discord."
+  },
+  "vote": {
+    "options": {},
+    "name": "vote",
+    "description": "Shows how you can vote me."
+  },
+  "addemoji": {
+    "options": {
+      "option0": {
+        "name": "name",
+        "description": "The way that you want to name the emoji.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "source",
+        "description": "The source of the new emoji (URL or other emoji).",
+        "choices": {}
+      }
+    },
+    "name": "addemoji",
+    "description": "Creates an new emoji to your guild."
+  },
+  "addrole": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      },
+      "option1": {
+        "name": "role",
+        "description": "Mention the role on the server",
+        "choices": {}
+      }
+    },
+    "name": "addrole",
+    "description": "You can get your daily yens by using this command"
+  },
+  "announce": {
+    "options": {
+      "option0": {
+        "name": "channel",
+        "description": "Send a announce to channel.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "text",
+        "description": "Send a announce to current server for all members (or not).",
+        "choices": {}
+      }
+    },
+    "name": "announce",
+    "description": "Send a announce to current server for all members (or not)."
+  },
+  "ban": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "To ban user.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "reason",
+        "description": "Enter reason to ban user.",
+        "choices": {}
+      },
+      "option2": {
+        "name": "message_days",
+        "description": "Bans user with an optional timeframe.",
+        "choices": {}
+      }
+    },
+    "name": "ban",
+    "description": "Bans a user in the guild"
+  },
+  "chat": {
+    "options": {
+      "option0": {
+        "name": "mode",
+        "description": "Locks the chat, updating the `Send Messages` permissions for the `@everyone` role",
+        "choices": {
+          "choice0": {
+            "name": "off"
+          },
+          "choice1": {
+            "name": "on"
+          }
+        }
+      }
+    },
+    "name": "chat",
+    "description": "Locks the chat, updating the `Send Messages` permissions for the `@everyone` role"
+  },
+  "clear": {
+    "options": {
+      "option0": {
+        "name": "quantidade",
+        "description": "Amount of message to delete.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "clear",
+    "description": "Clears messages in this channel. If specified a user, it clears messages from that user"
+  },
+  "config": {
+    "options": {
+      "option0": {
+        "name": "animu",
+        "description": "Animu Radio",
+        "choices": {}
+      },
+      "option1": {
+        "name": "mod",
+        "description": "Mod Log",
+        "choices": {}
+      },
+      "option2": {
+        "name": "report",
+        "description": "Report Module",
+        "choices": {}
+      }
+    },
+    "name": "config",
+    "description": "Enable and disable some modules who I have in your guild."
+  },
+  "kick": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "To kick user.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "reason",
+        "description": "Reason fo the punishment",
+        "choices": {}
+      }
+    },
+    "name": "kick",
+    "description": "Kicks an user in the guild"
+  },
+  "mute": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "To mute the member.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "time",
+        "description": "The time to mute the member (e.g: 60s, 10m, 1h, 1d, 7d).",
+        "choices": {}
+      },
+      "option2": {
+        "name": "reason",
+        "description": "Enter reason to mute the member.",
+        "choices": {}
+      }
+    },
+    "name": "mute",
+    "description": "Mutes a member in the guild"
+  },
+  "removeemoji": {
+    "options": {
+      "option0": {
+        "name": "emoji",
+        "description": "Removes an emoji in the current guild.",
+        "choices": {}
+      }
+    },
+    "name": "removeemoji",
+    "description": "Removes an emoji in the current guild."
+  },
+  "removerole": {
+    "options": {
+      "option0": {
+        "name": "member",
+        "description": "The guild member who you want remove the role.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "role",
+        "description": "The role of the guild member that actually have.",
+        "choices": {}
+      }
+    },
+    "name": "removerole",
+    "description": "Removes a role from a guild member."
+  },
+  "renameemoji": {
+    "options": {
+      "option0": {
+        "name": "emoji",
+        "description": "The emoji that you want rename.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "name",
+        "description": "The new name of the emoji.",
+        "choices": {}
+      }
+    },
+    "name": "renameemoji",
+    "description": "Rename the name of an emoji."
+  },
+  "baninfo": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      }
+    },
+    "name": "baninfo",
+    "description": "Check the ban information about a user"
+  },
+  "report": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention member on server.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "reason",
+        "description": "Informe o motivo pelo qual você quer reportar o usuário.",
+        "choices": {}
+      },
+      "option2": {
+        "name": "proof",
+        "description": "The proof of the infraction. (Image's URL)",
+        "choices": {}
+      }
+    },
+    "name": "reportar",
+    "description": "Denuncia um usuário neste servidor se a funcionalidade estiver ativa."
+  },
+  "rolecolor": {
+    "options": {
+      "option0": {
+        "name": "cargo",
+        "description": "Mention role on server.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "cor",
+        "description": "Por exemplo: #f55f96",
+        "choices": {}
+      }
+    },
+    "name": "rolecolor",
+    "description": "Altera a cor de um cargo."
+  },
+  "renamechannel": {
+    "options": {
+      "option0": {
+        "name": "canal",
+        "description": "Mencione o canal que você quer renomear.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "nome",
+        "description": "O novo nome do canal.",
+        "choices": {}
+      }
+    },
+    "name": "renamechannel",
+    "description": "Renomeia um canal do servidor atual."
+  },
+  "setbanner": {
+    "options": {
+      "option0": {
+        "name": "url",
+        "description": "A URL do novo banner.",
+        "choices": {}
+      }
+    },
+    "name": "setbanner",
+    "description": "Define o banner do seu servidor (não disponível para todos os servidores)."
+  },
+  "seticon": {
+    "options": {
+      "option0": {
+        "name": "url",
+        "description": "A URL do novo ícone.",
+        "choices": {}
+      }
+    },
+    "name": "seticon",
+    "description": "Define um ícone no servidor atual."
+  },
+  "softban": {
+    "options": {
+      "option0": {
+        "name": "usuário",
+        "description": "Mencione um membro do servidor.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "motivo",
+        "description": "Informe o motivo",
+        "choices": {}
+      },
+      "option2": {
+        "name": "purge-days",
+        "description": "Selecione a duração",
+        "choices": {}
+      }
+    },
+    "name": "softban",
+    "description": "Bane temporariamente um usuário. Se `purge-day` não estiver definido, o valor usado será 7"
+  },
+  "setnick": {
+    "options": {
+      "option0": {
+        "name": "usuário",
+        "description": "Mencione um membro do servidor.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "apelido",
+        "description": "Adicione um novo apelido.",
+        "choices": {}
+      }
+    },
+    "name": "setnick",
+    "description": "Define o apelido de um membro"
+  },
+  "unban": {
+    "options": {
+      "option0": {
+        "name": "usuário",
+        "description": "ID do usuário banido.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "motivo",
+        "description": "Informe o motivo",
+        "choices": {}
+      }
+    },
+    "name": "unban",
+    "description": "Desbane um usuário se estiver banido."
+  },
+  "unmute": {
+    "options": {
+      "option0": {
+        "name": "usuário",
+        "description": "Para desmutar um membro.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "motivo",
+        "description": "Digite o motivo para desmutar o membro mencionado.",
+        "choices": {}
+      }
+    },
+    "name": "unmute",
+    "description": "Remove o mute de um membro do servidor"
+  },
+  "slowmode": {
+    "options": {
+      "option0": {
+        "name": "tempo",
+        "description": "Set slowmode in the current channel.",
+        "choices": {}
+      }
+    },
+    "name": "slowmode",
+    "description": "Set slowmode in the current channel."
+  },
+  "aboutme": {
+    "options": {
+      "option0": {
+        "name": "text",
+        "description": "Put your new about me here.",
+        "choices": {}
+      }
+    },
+    "name": "aboutme",
+    "description": "Change about me in profile by using /profile."
+  },
+  "favcolor": {
+    "options": {
+      "option0": {
+        "name": "color",
+        "description": "For example: #f55f96",
+        "choices": {}
+      }
+    },
+    "name": "favcolor",
+    "description": "Changes your profile color to your favorite color."
+  },
+  "rep": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention member on server.",
+        "choices": {}
+      }
+    },
+    "name": "rep",
+    "description": "Gives a reputation to someone."
+  },
+  "rob": {
+    "options": {},
+    "name": "rob",
+    "description": "No description"
+  },
+  "channelinfo": {
+    "options": {
+      "option0": {
+        "name": "channel",
+        "description": "Mention a text channel.",
+        "choices": {}
+      }
+    },
+    "name": "channelinfo",
+    "description": "Hows some informations about a channel."
+  },
+  "emoji": {
+    "options": {
+      "option0": {
+        "name": "emoji",
+        "description": "Mention an emoji",
+        "choices": {}
+      }
+    },
+    "name": "emoji",
+    "description": "Get the emoji attachment."
+  },
+  "help": {
+    "options": {
+      "option0": {
+        "name": "command",
+        "description": "Command name",
+        "choices": {}
+      }
+    },
+    "name": "help",
+    "description": "Command Help for more information about commands."
+  },
+  "roleinfo": {
+    "options": {
+      "option0": {
+        "name": "role",
+        "description": "Mention the role for more information.",
+        "choices": {}
+      }
+    },
+    "name": "roleinfo",
+    "description": "Shows some informations about a role."
+  },
+  "inventory": {
+    "options": {
+      "option0": {
+        "name": "profile",
+        "description": "Change profiles that you've purchased or that you already have.",
+        "choices": {}
+      }
+    },
+    "name": "inventory",
+    "description": "To manage inventory"
+  },
+  "translate": {
+    "options": {},
+    "name": "translate",
+    "description": "Translate a text without having to use online translator services."
+  },
+  "server": {
+    "options": {
+      "option0": {
+        "name": "banner",
+        "description": "Get the current server's banner (if available).",
+        "choices": {}
+      },
+      "option1": {
+        "name": "icon",
+        "description": "Get the current server's icon (if it have one).",
+        "choices": {}
+      },
+      "option2": {
+        "name": "info",
+        "description": "Shows more information about the current server.",
+        "choices": {}
+      }
+    },
+    "name": "server",
+    "description": "Shows some informations about the current server."
+  },
+  "user": {
+    "options": {
+      "option0": {
+        "name": "avatar",
+        "description": "Shows your avatar or someone else's.",
+        "choices": {}
+      },
+      "option1": {
+        "name": "banner",
+        "description": "Gets the banner of an user.",
+        "choices": {}
+      },
+      "option2": {
+        "name": "info",
+        "description": "Shows some information about a user.",
+        "choices": {}
+      }
+    },
+    "name": "user",
+    "description": "Shows some information about a user."
+  },
+  "emojiinfo": {
+    "options": {
+      "option0": {
+        "name": "emoji",
+        "description": "Mention an emoji to see some info about it",
+        "choices": {}
+      }
+    },
+    "name": "emojiinfo",
+    "description": "Get some info about an emoji."
+  },
+  "pay": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      },
+      "option1": {
+        "name": "amount",
+        "description": "Amount of yen you want to transfer.",
+        "choices": {}
+      }
+    },
+    "name": "pay",
+    "description": "Sends money to a user"
+  },
+  "marry": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention your partner to get married.",
+        "choices": {}
+      }
+    },
+    "name": "marry",
+    "description": "Marry with your true love."
+  },
+  "divorce": {
+    "options": {},
+    "name": "divorce",
+    "description": "Divorces you to your current partner (I will charge 300 yens to divorce)."
+  },
+  "language": {
+    "options": {},
+    "name": "language",
+    "description": "Change my language in the current guild."
+  },
+  "work": {
+    "options": {
+      "option0": {
+        "name": "choose",
+        "description": "No description",
+        "choices": {}
+      },
+      "option1": {
+        "name": "start",
+        "description": "No description",
+        "choices": {}
+      }
+    },
+    "name": "work",
+    "description": "No description"
+  },
+  "laranjo": {
+    "options": {
+      "option0": {
+        "name": "text",
+        "description": "Enter random text",
+        "choices": {}
+      }
+    },
+    "name": "laranjo",
+    "description": "Laranjo will say something silly."
+  },
+  "license": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention the member on the server",
+        "choices": {}
+      },
+      "option1": {
+        "name": "text",
+        "description": "Enter random text",
+        "choices": {}
+      }
+    },
+    "name": "license",
+    "description": "Are you licensed? No? Then create one for yourself! Or for someone else."
+  },
+  "rize": {
+    "options": {
+      "option0": {
+        "name": "text",
+        "description": "Enter random text",
+        "choices": {}
+      }
+    },
+    "name": "rize",
+    "description": "Makes Rize writes on the paper"
+  },
+  "profile": {
+    "options": {
+      "option0": {
+        "name": "user",
+        "description": "Mention member on server.",
+        "choices": {}
+      }
+    },
+    "name": "profile",
+    "description": "Shows your social profile or the social profile of someone."
+  }
+}

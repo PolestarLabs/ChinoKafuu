@@ -19,41 +19,15 @@ For that reason, we are **NOT** providing any kind of support for unoriginal sel
 ### How to self hosting
 > Install nodejs 14 or higher. You can download and install here: https://nodejs.org
 
-> Create a file named `.env` and input this informations (the token can't be prefix-less, you need put Bot on the start.)
-```
-DISCORD_TOKEN=Bot <Token>
-BOT_PREFIX=
-MONGO_URI=
-SHARD_AMOUNT=1
-CLUSTER_AMOUNT=1
-ENABLE_REGISTRY_RELOAD=true
-PRODUCTION=false
-BOT_DEVELOPERS=id1,id2
-ACCESS_BETA=id1,id2
-ERROR_CHANNEL_LOG=
-JOIN_AND_LEAVE_GUILD_CHANNEL_LOG=
-WITHOUT_STORING_CACHE_OF_PROFILES=false
-SHARD_CHANNEL_LOG=
-CLUSTERS=false
-BUILD_SHOW=false
-
-# Interaction HTTP
-
-# WSS = HTTPS
-# WS  = HTTP
-# API:
-# https://github.com/RabbitHouseCorp/http-interaction
-URL_INTERACTION=ws://IP:PORT/ws_interaction
-SECRET_INTERACTION=SECRET
-PUBLIC_KEY=Public Key > Bot
-```
+> Create a file named `.env` and fill with the informations included in [.env.example](https://github.com/RabbitHouseCorp/ChinoKafuu/blob/dev/.env.example) (the DISCORD_TOKEN can't be prefix-less, you need put Bot on the start.)
 
 > Use that commands in your terminal
 ```
-npm install
+yarn install
+yarn start --force-install
 ```
 ```
-node .
+yarn start
 ```
 ### How to connect a Lavalink
 > Create a file named `LavalinkConfig.json` in the folder `lavalink` and input this informations on this file

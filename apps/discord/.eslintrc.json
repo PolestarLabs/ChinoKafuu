@@ -1,0 +1,139 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true,
+        "jest/globals": true
+    },
+    "settings": {
+        "jest": {
+            "globalAliases": {
+                "describe": [
+                    "context"
+                ],
+                "fdescribe": [
+                    "fcontext"
+                ],
+                "xdescribe": [
+                    "xcontext"
+                ]
+            },
+            "version": 27
+        }
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:security/recommended",
+        "plugin:jest/recommended",
+        "plugin:jest/style",
+        "plugin:jest/all",
+        "plugin:import/recommended"
+    ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": 2022,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        },
+        "requireConfigFile": false,
+        "babelOptions": {
+            "parserOpts": {
+                "plugins": [
+                    "importAssertions"
+                ]
+            }
+        }
+    },
+    "globals": {
+        "bigint": true,
+        "window": true
+    },
+    "plugins": [
+        "import",
+        "sort-class-members",
+        "jest",
+        "@rushstack/eslint-plugin-security"
+    ],
+    "rules": {
+        "security/detect-buffer-noassert": "error",
+        "security/detect-child-process": "error",
+        "security/detect-disable-mustache-escape": "error",
+        "security/detect-eval-with-expression": "error",
+        "security/detect-new-buffer": "error",
+        "security/detect-no-csrf-before-method-override": "error",
+        "security/detect-non-literal-fs-filename": "error",
+        "security/detect-non-literal-regexp": "error",
+        "security/detect-non-literal-require": "error",
+        "security/detect-possible-timing-attacks": "error",
+        // "security/detect-pseudoRandomBytes": "error",
+        "security/detect-unsafe-regex": "error",
+        "security/detect-object-injection": "error",
+        "import/no-duplicates": "error",
+        "import/no-unresolved": "error",
+        "import/no-extraneous-dependencies": "error",
+        "import/no-mutable-exports": "error",
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error",
+        "indent": [
+            "error",
+            2,
+            {
+                "SwitchCase": 1,
+                "ignoreComments": true
+            }
+        ],
+        "quotes": [
+            2,
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "array-bracket-spacing": [
+            "error",
+            "never"
+        ],
+        "keyword-spacing": [
+            2,
+            {
+                "after": true,
+                "overrides": {
+                    "if": {
+                        "after": true
+                    },
+                    "switch": {
+                        "after": true
+                    },
+                    "for": {
+                        "after": true
+                    },
+                    "catch": {
+                        "after": true
+                    }
+                }
+            }
+        ],
+        "space-unary-ops": 2,
+        "prefer-const": 2,
+        "no-prototype-builtins": 0,
+        "no-trailing-spaces": 2,
+        "no-var": 2,
+        "no-unused-vars": "warn",
+        "lines-between-class-members": "error",
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1,
+                "maxEOF": 1
+            }
+        ],
+        "object-curly-spacing": [
+            "warn",
+            "always"
+        ]
+    }
+}

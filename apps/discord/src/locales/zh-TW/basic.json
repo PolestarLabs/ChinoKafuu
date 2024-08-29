@@ -1,0 +1,129 @@
+{
+  "timestamp": {
+    "year": "{{0}} year{space}{{1}}{space}",
+    "years": "{{0}} years{space}{{1}}{space}",
+    "week": "{{0}} week{space}{{1}}{space}",
+    "weeks": "{{0}} weeks{space}{{1}}{space}",
+    "day": "{{0}} day{space}{{1}}{space}",
+    "days": "{{0}} days{space}{{1}}{space}",
+    "hour": "{{0}} hour{space}{{1}}{space}",
+    "hours": "{{0}} hours{space}{{1}}{space}",
+    "minute": "{{0}} minute{space}{{1}}{space}",
+    "minutes": "{{0}} minutes{space}{{1}}{space}",
+    "second": "{{0}} second{space}{{1}}{space}",
+    "seconds": "{{0}} seconds{space}{{1}}{space}",
+    "prefix": "and",
+    "notime": "no time"
+  },
+  "profiles": {
+    "default": {
+      "name": "Default",
+      "shortDescription": "It's only the default profile.",
+      "description": "It's only the default profile."
+    },
+    "modern": {
+      "name": "Notebook",
+      "shortDescription": "I guess I will put a note on my notebook.",
+      "description": "I guess I will put a note on my notebook."
+    },
+    "profile_2": {
+      "name": "Modern",
+      "shortDescription": "The default profile, but more modern.",
+      "description": "The default profile, but more modern."
+    }
+  },
+  "message": {
+    "interactionRateLimit": "Oops! Calm down, it looks like there's an interaction working at the same time, so you've been limited for a few seconds... Try again!",
+    "interactionExpired": "This interaction has expired. Try to run the command and repeat the same process.",
+    "interactionError": "在此交互中發生了些問題，我將會把問題轉交給我的團隊來分析並解決。",
+    "interactionWithoutPermission": "This interaction is not allowed to perform such processes as: {{0}}",
+    "interactionSuspectedBug": "在進行此交互時似乎發生了些異常，我將把此問題回報給團隊並讓他們調查與解決問題。",
+    "interactionLimited": "此互動只有 {{0}} 個人可用，你好像並不是可以用的那個人？",
+    "interactionOtherUser": "你不能控制此交互，因為這不是你發起的。",
+    "interactionBanned": "你因為被 ChinoKafuu 封鎖，無法使用我提供的服務。",
+    "interactionBlockedForMaintenance": "該互動由於正在進行維護，所以無法使用。",
+    "interactionTimeout": "我們注意到此交互的回應時間有點太長了，請再次嘗試。",
+    "interactionBlockedToAttempt": "此交互被封鎖，因為它有一個懷疑的錯誤並且需要較長的時間來載入其他功能。我將它轉發給團隊以分析問題。請稍後再試。",
+    "buttonInteractionExpired": "這個按鈕已經失效，請嘗試重新輸入指令並再次執行相同的操作。",
+    "menuInteractionExpired": "這個選單已經失效，請重新輸入一次指令並嘗試相同的操作。",
+    "itemsSelectedDoMenuLimited": "哇！你選擇的東西似乎有點太多了，你只能選擇 {{0}} 到 {{1}} 個。",
+    "rateLimit": "當前有過多的用戶正在使用這項功能，為了減少負擔而對功能有所限制，請重新嘗試。"
+  },
+  "page": {
+    "backPage": "回上一頁",
+    "nextPage": "下一頁"
+  },
+  "permissions": {
+    "permissionUserRequired": "您必須具有以下權限才能使用此命令：{{0}}.",
+    "permissionBotRequired": "您必須具有以下權限才能使用此指令：{{0}}.",
+    "title": "權限"
+  },
+  "onMention": "<:chino_rawr:751215250245943318> **|** 你好，{{0}}。我的指令前綴是`{{1}}`。如果你想看看我能做什麼，請使用`{{1}}help`。",
+  "missingBotPermission": "我沒有 {{perm}} 權限。請檢查我的權限/身分組，然後重試。",
+  "missingUserPermission": "您沒有 {{perm}} 權限。您無法執行此指令。",
+  "missingBotPermissionOnChannel": "嘿{{0}} 我沒有對 {{2}} 的 {{1}} 權限。請檢查我的權限，然後重試。",
+  "invalidUser": "我找不到這個人。你確定這個用戶存在嗎？",
+  "invalidRole": "我找不到這個身分組。你確定這個伺服器裡有這個身分組嗎？",
+  "invalidEmoji": "我找不到這個表情符號。你確定這個表情符號來自這個伺服器嗎？",
+  "noReason": "無原因",
+  "clickHere": "請點擊此處",
+  "punishment": {
+    "banned": "{{0}} |禁止",
+    "unbanned": "{{0}} |解禁",
+    "kicked": "{{0}} |被踢",
+    "softBan": "{{0}} |停權",
+    "muted": "{{0}} |靜音",
+    "unmuted": "{{0}} |解除靜音",
+    "embed": {
+      "memberName": "使用者名稱",
+      "memberID": "使用者ID",
+      "staffName": "誰處罰",
+      "reason": "原因"
+    },
+    "reason": "懲罰者：{{0}} - 原因：{{1}}",
+    "bigReason": "你必須寫一個簡短的理由，這個理由對我來說攏長了。",
+    "selfPunishment": "抱歉，但是，由於您無法在正常的 Discord 上懲罰自己，因此您無法通過我來懲罰自己。",
+    "ownerPunish": "你瘋了嗎？你不能懲罰這個人，他們是這個伺服器的主人。",
+    "error": "我不能懲罰這個成員。也許他們的身分組比我高。檢查身分組並重試。"
+  },
+  "missingArgs": "無效的論據！使用 `{{prefix}}{{commandName}}` 查看正確的用法。",
+  "howToUse": "如何使用?",
+  "aliases": "暱稱",
+  "addedToGuild": {
+    "thanks": "感謝你邀請我加入你們的伺服器!",
+    "description": "哇{{0}}！感謝您將我加入`{{1}}`，讓我自我介紹一下。\n\n我是一個小機器人，有很多有用的功能，比如... **moderation**、**fun** 和 **utilities**。預設情況下，我的指令前綴是`{{2}}`\n\n如果您需要幫助，請使用 `{{2}}help` 或 `{{2}}invite` 加入我的幫助伺服器。祝你玩得開心，待會見。",
+    "guildSaved": "已成功將伺服器 {{0}} 保存在數據庫中！"
+  },
+  "noAliases": "此指令沒有任何別名。",
+  "voice": {
+    "authorAreNotInVoiceChannel": "你必須在語音頻道上，但你不是。",
+    "playerAlreadyPlaying": "我的收音機已經在播放了。",
+    "clientAreNotInVoiceChannel": "我現在不在語音頻道中，請使用`/animu play`。",
+    "playerNotFound": "我現在沒有玩任何東西，使用`/animu play`。",
+    "maxVolume": "嘿，冷靜下來！ 允許的最大音量為“100”。",
+    "minVolume": "嘿，冷靜下來！ 允許的最小音量為“5”。"
+  },
+  "boolean": {
+    "true": "是",
+    "false": "否"
+  },
+  "guildban": {
+    "title": "伺服器禁止",
+    "explain": "`{{0}}` 被禁止，原因如下。 你認為禁令不公平嗎？ 加入我的 [幫助伺服器](https://discord.gg/Jr57UrsXeC)，或許可以解除他們的禁令。",
+    "reason": "原因"
+  },
+  "cooldown": "請再等 {{0}} 秒以再次執行此指令！",
+  "cooldownLowThanZero": "一些",
+  "disabledCommand": "對不起，但是，這個指令有一些問題，它被禁用了一段時間\n**原因：** `{{0}}`",
+  "blockedChannel": "您無法在此處使用指令，請轉到 {{0}} 並重試。",
+  "migrate": {
+    "migrateTitle": "斜線指令在這裡！",
+    "migrateToSlashCommand": "嘿！ 2022 年 1 月之後，我將只回復斜線指令，如果您想繼續使用我，那麼您必須重新邀請我，您可以點擊 [here](https://discord.com/oauth2/ authorize?client_id={{0}}&permissions=1378654604670&scope=bot%20applications.commands&guild_id={{1}})，你不需要把我踢出服務器。 謝謝！ 如果您想停止接收此消息，請輸入“{{2}}stopnotify”。 <a:chino_petpet:760564885280784405>",
+    "disabledTitle": "不推薦使用原版命令",
+    "disabledToSlashCommands": "是時候告別普通指令了，現在只有斜線指命令可用。 目前，該指令已棄用，但您可以正常使用我，使用斜線指令，輸入 `/help` 以查看我的指令列表。",
+    "howToUseTitle": "如何使用?",
+    "howToUseSlash": "1.) 對於沒有重新邀請我到此伺服器，您可以點擊[here]重新邀請我(https://discord.com/oauth2/authorize?client_id={{0}}&permissions =1378654604670&scope=bot%20applications.commands&guild_id={{1}})，請務必確保您已經重新邀請我。\n2.) 用戶需要有`Use Application Commands`的權限才能使用我的命令。\n3.) If you are unable to see the slash commands, make sure you enabled `User Settings -> Text and Images -> Use slash commands and preview emojis, mentions, and markdown syntax as you type`",
+    "needSupportTitle": "還在困惑如何使用機器人？",
+    "needSupportSlash": "如果您仍然對如何正確使用我感到困惑，請隨時加入我們的 [幫助伺服器](https://discord.gg/Jr57UrsXeC) 以獲得我們團隊的幫助。"
+  }
+}

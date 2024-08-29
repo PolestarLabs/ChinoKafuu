@@ -1,0 +1,129 @@
+{
+  "timestamp": {
+    "year": "{{0}} year{space}{{1}}{space}",
+    "years": "{{0}} years{space}{{1}}{space}",
+    "week": "{{0}} week{space}{{1}}{space}",
+    "weeks": "{{0}} weeks{space}{{1}}{space}",
+    "day": "{{0}} day{space}{{1}}{space}",
+    "days": "{{0}} days{space}{{1}}{space}",
+    "hour": "{{0}} hour{space}{{1}}{space}",
+    "hours": "{{0}} hours{space}{{1}}{space}",
+    "minute": "{{0}} minute{space}{{1}}{space}",
+    "minutes": "{{0}} minutes{space}{{1}}{space}",
+    "second": "{{0}} second{space}{{1}}{space}",
+    "seconds": "{{0}} seconds{space}{{1}}{space}",
+    "prefix": "and",
+    "notime": "no time"
+  },
+  "profiles": {
+    "default": {
+      "name": "Default",
+      "shortDescription": "It's only the default profile.",
+      "description": "It's only the default profile."
+    },
+    "modern": {
+      "name": "Notebook",
+      "shortDescription": "I guess I will put a note on my notebook.",
+      "description": "I guess I will put a note on my notebook."
+    },
+    "profile_2": {
+      "name": "Modern",
+      "shortDescription": "The default profile, but more modern.",
+      "description": "The default profile, but more modern."
+    }
+  },
+  "message": {
+    "interactionRateLimit": "Oops! Calm down, it looks like there's an interaction working at the same time, so you've been limited for a few seconds... Try again!",
+    "interactionExpired": "This interaction has expired. Try to run the command and repeat the same process.",
+    "interactionError": "An error occurred in the interaction. I am forwarding the error to the team to analyze and solve the problem.",
+    "interactionWithoutPermission": "This interaction is not allowed to perform such processes as: {{0}}",
+    "interactionSuspectedBug": "Oops! We detected something odd while working on the interaction. I am forwarding it to the team to investigate and resolve the issue.",
+    "interactionLimited": "This interaction is limited to {{0}} users. And that's why this interaction is blocked for you.",
+    "interactionOtherUser": "Oops! This interaction was initiated by someone else and therefore you do not have permission to control it.",
+    "interactionBanned": "This interaction is blocked because you are banned from using ChinoKafuu commands or resources.",
+    "interactionBlockedForMaintenance": "Interaction blocked to do maintenance.",
+    "interactionTimeout": "We noticed that this interaction took a long time to respond. Try to repeat the same process.",
+    "interactionBlockedToAttempt": "This interaction was blocked because it has a suspected bug and takes a long time to load other functions. I am forwarding it to the team to analyze the problem. Try again later.",
+    "buttonInteractionExpired": "This interaction button has expired. Try running command and repeating the same process.",
+    "menuInteractionExpired": "This menu selection interaction has expired. Try to run command and repeat the same process.",
+    "itemsSelectedDoMenuLimited": "Woah! There are too many items selected, you can only select {{0}} up to {{1}}",
+    "rateLimit": "Currently, there are a lot of people using this feature right now, so it has been limited to avoid overloading the service. Try later."
+  },
+  "page": {
+    "backPage": "Back to previous page",
+    "nextPage": "Next page"
+  },
+  "permissions": {
+    "permissionUserRequired": "Bạn phải có các quyền sau đây để sử dụng lệnh này: {{0}}.",
+    "permissionBotRequired": "Bạn phải có những quyền sau đây mới có thể dùng lệnh này: {{0}}.",
+    "title": "Quyền hạn"
+  },
+  "onMention": "<:chino_rawr:751215250245943318> **|** Hello, {{0}}. My prefix is `{{1}}`. If you want to see what I can do, use `{{1}}help`.",
+  "missingBotPermission": "Mình vẫn chưa có quyền {{perm}}. Kiểm tra giúp mình cái role cũng như quyền hạn rồi mới thử lại sau.",
+  "missingUserPermission": "bạn không có quyền {{perm}}. Đồng nghĩa bạn cũng không có quyền thực thi lệnh này.",
+  "missingBotPermissionOnChannel": "Này {{0}}! Hình như mình bị thiếu quyền {{1}} ở kênh {{2}}. Kiểm tra quyền giúp mình rồi sau đó thử lại nhé.",
+  "invalidUser": "I can't find this person. Are you sure this user exist?",
+  "invalidRole": "I can't find this role. Are you sure this role exist in this guild?",
+  "invalidEmoji": "I can't find this emoji. Are you sure this emoji is from this guild?",
+  "noReason": "Không có lý do",
+  "clickHere": "Click vào đây",
+  "punishment": {
+    "banned": "{{0}} | Bị ban",
+    "unbanned": "{{0}} | Được gỡ ban",
+    "kicked": "{{0}} | Kicked",
+    "softBan": "{{0}} | Soft banned",
+    "muted": "{{0}} | Muted",
+    "unmuted": "{{0}} | Unmuted",
+    "embed": {
+      "memberName": "Tên người dùng",
+      "memberID": "ID người dùng",
+      "staffName": "Người thực thi hình phạt",
+      "reason": "Lý do"
+    },
+    "reason": "Punished by: {{0}} - Reason: {{1}}",
+    "bigReason": "viết lý do ngắn lại giúp mình, viết dài như thế thì quá sức mình mất.",
+    "selfPunishment": "sorry, but, as you're unable to punish yourself on normal Discord, you can't punish yourself by me.",
+    "ownerPunish": "have you lost your mind? You can't punish this person, they're the owner of this guild.",
+    "error": "I couldn't punish this member. Perhaps their roles are higher than mine. Check the roles and try again."
+  },
+  "missingArgs": "Cú pháp không hợp lệ! Chat `{{prefix}}{{commandName}}` để xem cách dùng đúng của lệnh đó.",
+  "howToUse": "Dùng như nào?",
+  "aliases": "Bí danh",
+  "addedToGuild": {
+    "thanks": "Cảm ơn vì đã thêm tôi vào server",
+    "description": "Whoa {{0}}! Cảm ơn vì đã đưa mình đến với `{{1}}`, mình xin được mạn phép giới thiệu bản thân đôi chút.\n\nMình là một \"cô bot\" bé bỏng mang trong mình rất nhiều chức năng hữu ích, như là... **moderation**, **fun** and **utilities**. Mặc định thì prefix của mình sẽ là `{{2}}`\n\nNếu thấy cần giúp đỡ thì còn ngại gì nữa mà không tham gia ngay server của mình bằng cách chat `{{2}}help` hoặc `{{2}}invite`. Chúc vui vẻ và hẹn gặp lại.",
+    "guildSaved": "Lưu thành công dữ liệu của {{0}} vào database!"
+  },
+  "noAliases": "Lệnh này không có bí danh nào cả.",
+  "voice": {
+    "authorAreNotInVoiceChannel": "you've must be on a voice channel, but you're not.",
+    "playerAlreadyPlaying": "the radio is already playing on me.",
+    "clientAreNotInVoiceChannel": "I'm not in a voice channel right now, use `/animu play`.",
+    "playerNotFound": "I'm not in a playing anything right now, use `/animu play`.",
+    "maxVolume": "hey, calm down! The maximum volume allowed is `100`.",
+    "minVolume": "hey, calm down! The minimal volume allowed is `5`."
+  },
+  "boolean": {
+    "true": "Có",
+    "false": "Không"
+  },
+  "guildban": {
+    "title": "Guild Banned",
+    "explain": "`{{0}}` đã bị ban vì lý do dưới đây. Bạn có thấy điều đó có gì hơi bất công? Tham gia ngay [support server](https://discord.gg/Jr57UrsXeC) của tụi mình để phóng thích bọn họ nhé.",
+    "reason": "Lý do"
+  },
+  "cooldown": "vui lòng chờ thêm {{0}} giây nữa để tiếp tục thực thi lệnh này!",
+  "cooldownLowThanZero": "một số",
+  "disabledCommand": "xin lỗi, lệnh này có vẻ gặp đôi chút vấn đề nên tạm thời đã bị vô hiệu hóa\n**Lý do:** `{{0}}`",
+  "blockedChannel": "bạn không được phép dùng lệnh này ở đây, hãy đến {{0}} và thử lại.",
+  "migrate": {
+    "migrateTitle": "Slash commands are here!",
+    "migrateToSlashCommand": "Hey! After January 2022 I'll only answer to slash commands, please, if you want to continue using me, then you must re-add me, you can do that by clicking [here](https://discord.com/oauth2/authorize?client_id={{0}}&permissions=1378654604670&scope=bot%20applications.commands&guild_id={{1}}), you don't need to kick me out of the server. Thank you! If you want stop receive this message, type `{{2}}stopnotify`. <a:chino_petpet:760564885280784405>",
+    "disabledTitle": "Vanilla commands are deprecated",
+    "disabledToSlashCommands": "It's time to say goodbye to normal commands, now it's only available slash commands. Right now, this command is deprecated, but you can use me normally using slash commands, type `/help` to see my command list.",
+    "howToUseTitle": "How to use?",
+    "howToUseSlash": "1.) For old users who don't re-invited me to this server, you can re-invite me by clicking [here](https://discord.com/oauth2/authorize?client_id={{0}}&permissions=1378654604670&scope=bot%20applications.commands&guild_id={{1}}), it's important you make sure that you've already re-invited me.\n2.) The user need to have `Use Application Commands`'s permission to use my commands.\n3.) If you are unable to see the slash commands, make sure you enabled `User Settings -> Text and Images -> Use slash commands and preview emojis, mentions, and markdown syntax as you type`",
+    "needSupportTitle": "Still confused how to use the bot?",
+    "needSupportSlash": "If you still confused how to using me properly, feel free to join our [support server](https://discord.gg/Jr57UrsXeC) to get help from our support team."
+  }
+}

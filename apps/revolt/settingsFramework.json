@@ -1,0 +1,12 @@
+{
+  "autoInstall": false,
+  "clustering": false,
+  "debug": false,
+  "developer": false,
+  "ipc": false,
+  "smart": false,
+  "typescript": true,
+  "typescriptArgs": [],
+  "bunRuntime": false,
+  "notRun": [false, "it's not ready yet...", true]
+}
