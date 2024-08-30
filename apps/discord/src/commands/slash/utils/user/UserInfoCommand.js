@@ -38,7 +38,7 @@ export default class UserInfoCommand extends Command {
     embed.setThumbnail(avatar)
     embed.addField(ctx._locale('commands:userinfo.username'), `@${member.username}`, true)
     embed.addField(ctx._locale('commands:userinfo.userid'), member.id, true)
-    embed.addField(ctx._locale('commands:userinfo.createdAt'), `<t:${parseInt(member.createdAt / 1000).toFixed(0)}:F>`, true)
+    embed.addField(ctx._locale('commands:userinfo.createdAt'), `<t:${parseInt(member.createdAt / 1000).toFixed(0)}:F> (<t:${parseInt(member.createdAt / 1000).toFixed(0)}:R>)`, true)
     guildMember ? embed.addField(ctx._locale('commands:userinfo.joinedAt'), `<t:${parseInt(guildMember.joinedAt / 1000).toFixed(0)}:F> (<t:${parseInt(guildMember.joinedAt / 1000).toFixed(0)}:R>)`, true) : null
     guildMember ? embed.addField(ctx._locale('commands:userinfo.highRole'), highRole?.mention, true) : null
 
