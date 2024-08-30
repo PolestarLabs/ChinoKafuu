@@ -75,7 +75,7 @@
     "no": "I changed my mind.",
     "iChangedMyMind": "Ok. I canceled job change.",
     "buttonConfirm": "I want this job.",
-    "rules": "**How ​​does it work?**\n1 - When choosing the job you need to wait 8 hours until you receive yen that was selected in this command.\n2 - ||If you choose `Robber`, when executing command {{0}}, you will be able to steal money randomly on the server.||\n3 - Once you select the job, just run the command {{1}}.\n4 - If you are working on a schedule, you need to wait for that time to choose a new job.",
+    "rules": "**How does it work?**\n1 - When choosing the job you need to wait 8 hours until you receive yen that was selected in this command.\n2 - ||If you choose `Robber`, when executing command {{0}}, you will be able to steal money randomly on the server.||\n3 - Once you select the job, just run the command {{1}}.\n4 - If you are working on a schedule, you need to wait for that time to choose a new job.",
     "choose": {
       "title": "Welcome to the job interview.",
       "description": "To select fun job just click on menu selection and choose job.",
@@ -433,7 +433,14 @@
       "NEW_THREAD_PERMISSIONS": "Nuevas permisos del hilos",
       "MEMBER_PROFILES": "Perfil de miembro",
       "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT": "Exposed to Activities WTP Experiment",
-      "AUTO_MODERATION": "Auto Moderation"
+      "AUTO_MODERATION": "Auto Moderation",
+      "SOUNDBOARD": "Soundboard",
+      "CHANNEL_ICON_EMOJIS_GENERATED": "Guild Icon Emojis Generated",
+      "GUILD_ONBOARDING": "Guild Onboarding",
+      "GUILD_ONBOARDING_EVER_ENABLED": "Guild Onboarding Ever Enabled",
+      "GUILD_SERVER_GUIDE": "Guild Server Guide",
+      "GUILD_ONBOARDING_HAS_PROMPTS": "Guild Onboarding Has Prompts",
+      "COMMUNITY_EXP_LARGE_GATED": "Community EXP Large Gated"
     },
     "booster": {
       "levelCount": "Nivel de Impulso",
