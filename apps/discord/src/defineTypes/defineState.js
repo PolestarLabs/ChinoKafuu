@@ -101,6 +101,7 @@ export class StateData {
  * @property {<S>(data: T) => StateDataEffect<T & S>} setState
  * @property {(property: keyof T) => StateDataEffect<T>} del
  * @property {(input: T) => void} modifyObject
+ * @property {() => T}
  * @property {(func: ((data: T & R, newData: T & R) => void)) => void} useEffect
  * @property {import('events').EventEmitter | null} [event]
  * @property {() => void} destroy;
@@ -118,10 +119,10 @@ export const StateDataEffect = {}
  * @template T
  * @description This will help save unnecessary variable and after you are done and set the data to null and let the GC work.
  * @param {T} [state]
- * @param {{eventEmitter: boolean; ctx: any}} [options]
+ * @param {{eventEmitter: boolean; ctx: any; requestUpdate?: () => T}} [options]
  * @returns {StateDataEffect<T>}
  */
-export const defineState = (state = {}, options = { eventEmitter: false, ctx: null }) => {
+export const defineState = (state = {}, options = { eventEmitter: false, ctx: null, requestUpdate: null }) => {
   let stateData = null
   if ((typeof state !== 'object' || Array.isArray(state))) {
     if (Array.isArray(state)) throw new Error(`state invalid: state of data is [array]`)
@@ -212,11 +213,13 @@ export const defineState = (state = {}, options = { eventEmitter: false, ctx: nu
     postStructJson,
     del,
     destroy,
+    requestUpdate: async () => typeof options.requestUpdate === 'function' ? await options.requestUpdate() : null,
     modifyObject: (args) => modifyObject(args, stateData)
   })
   stateData.obj = state
   Object.assign(state, {
     ...stateData,
+    requestData: () => typeof options.requestUpdate === 'function' ? options.requestUpdate() : null,
     useEffect: (...args) => stateData.useEffect(...args),
     setMessageID: (...args) => stateData.setMessageID(...args),
     setUserID: (...args) => stateData.setUserID(...args),
@@ -255,10 +258,10 @@ export class ManageState extends Array {
 
   getState(id) {
     return this.find((state) =>
-      state.variable.messageID == id ||
-      state.variable.channelID == id ||
-      state.variable.userID == id ||
-      state.variable.id == id) ?? null
+      state.variable.messageID === id ||
+      state.variable.channelID === id ||
+      state.variable.userID === id ||
+      state.variable.id === id) ?? null
   }
 
   delStates() {
@@ -266,7 +269,7 @@ export class ManageState extends Array {
       .filter((state) => (state.time - Date.now()) <= 0)
       .map((state, index) => {
         delete state.variable
-        this.splice(this.findIndex((index) => index.id == state.id), 1)
+        this.splice(this.findIndex((index) => index.id === state.id), 1)
         return index
       })
   }

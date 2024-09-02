@@ -14,6 +14,8 @@
       "title": "Transfer"
     },
     "error": {
+      "insufficientFundsForTransfer": "You have no funds to transfer to the bank.",
+      "insufficientBalanceToWithdraw": "Insufficient balance to withdraw",
       "rejectedValue": "You entered a value of {{0}} while the total value is {{1}}. Please try again.",
       "rejectedBankWithdrawalValue": "The value you are trying to withdraw, which is **`{{0}}`**, is too high! Please try again with a lower value.",
       "valueIsInvalid": "The value you entered is invalid! Please try again.",

@@ -22,7 +22,10 @@ export default class BankCommand extends Command {
     const state = defineState({
       user: ctx.db.user
     }, {
-      eventEmitter: false
+      eventEmitter: false,
+      async requestUpdate(data) {
+        return await ctx.client.database.users.getOrCreate(ctx.db.user.id)
+      }
     })
     const { economy } = ctx.db.user
     const text = ctx._locale('commands:bank.message', {
