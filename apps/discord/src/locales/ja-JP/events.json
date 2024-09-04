@@ -2,7 +2,8 @@
   "executionFailure": {
     "embedTitle": "An error has occurred! Sorry...",
     "fieldTitle": "エアーいち報告",
-    "fieldValue": "As we probably don't know about this error, you can either [open an issue](https://github.com/RabbitHouseCorp/ChinoKafuu/issues/new/choose) on GitHub or contact us in our [support server](https://discord.gg/Jr57UrsXeC). Don't forget to attach this _little message_ when reporting the error.\nThanks and sorry!"
+    "fieldValue": "As we probably don't know about this error, you can either [open an issue](https://github.com/RabbitHouseCorp/ChinoKafuu/issues/new/choose) on GitHub or contact us in our [support server](https://discord.gg/Jr57UrsXeC). Don't forget to attach this _little message_ when reporting the error.\nThanks and sorry!",
+    "commandExecuted": "Command that was executed"
   },
   "stopnotify": {
     "alreadyStopped": "sorry but, you already told me to stop notify you about the migration.",

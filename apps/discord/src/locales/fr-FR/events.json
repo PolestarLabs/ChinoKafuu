@@ -2,7 +2,8 @@
   "executionFailure": {
     "embedTitle": "Une erreur s'est produite! Désolé...",
     "fieldTitle": "Avertissez-nous",
-    "fieldValue": "Comme nous ne sommes probablement pas au courant de cette erreur, vous pouvez soit [ouvrir un issue] (https://github.com/RabbitHouseCorp/ChinoKafuu/issues/new/choose) sur GitHub, soit nous contacter sur notre [serveur de support] (https://discord.gg/Jr57UrsXeC). N'oubliez pas de joindre ce _petit message_ lorsque vous signalez l'erreur.\nMerci et désolé!"
+    "fieldValue": "Comme nous ne sommes probablement pas au courant de cette erreur, vous pouvez soit [ouvrir un issue] (https://github.com/RabbitHouseCorp/ChinoKafuu/issues/new/choose) sur GitHub, soit nous contacter sur notre [serveur de support] (https://discord.gg/Jr57UrsXeC). N'oubliez pas de joindre ce _petit message_ lorsque vous signalez l'erreur.\nMerci et désolé!",
+    "commandExecuted": "Command that was executed"
   },
   "stopnotify": {
     "alreadyStopped": "désolée, mais vous m'avez déjà demandé d'arrêter de vous notifier à propos de la migration.",
