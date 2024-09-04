@@ -14,11 +14,11 @@ export default class WorkCommand extends Command {
           new CommandOptions()
             .setType(1)
             .setName('choose')
-            .setDescription('No description'),
+            .setDescription('Apply to any job that you desire.'),
           new CommandOptions()
             .setType(1)
             .setName('start')
-            .setDescription('No description')
+            .setDescription('Start your shift on the work that you have selected.')
         )
     })
   }
