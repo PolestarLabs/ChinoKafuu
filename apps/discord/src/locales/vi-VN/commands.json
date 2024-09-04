@@ -86,7 +86,7 @@
     },
     "description": {
       "busDriver": "no description",
-      "policie": "no description",
+      "police": "no description",
       "robber": "no description",
       "doctor": "no description",
       "lawyer": "no description",
@@ -95,7 +95,7 @@
     },
     "profession": {
       "busDriver": "Bus Driver",
-      "policie": "Policie",
+      "police": "Police",
       "robber": "Robber",
       "doctor": "Doctor",
       "lawyer": "Lawyer",
