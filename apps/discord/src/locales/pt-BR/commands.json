@@ -1,35 +1,35 @@
 {
   "bank": {
-    "message": "### - 🔹 **Bank**: `{{0}}`\n### - 🔹 **Value**: `{{1}}`",
+    "message": "### - 🔹 **Banco**: `{{0}}`\n### - 🔹 **Valor**: `{{1}}`",
     "button": {
-      "transfer": "Transfer to bank",
-      "withDraw": "Withdraw money"
+      "transfer": "Transferir para o banco",
+      "withDraw": "Sacar dinheiro"
     },
     "success": {
-      "valueWasWithdrawnFromBank": "The value of **{{0}}** was successfully withdrawn from the bank!\n### - 🔻 **Bank:** `{{1}}`\n### - 📈 **Value**: `{{2}}`",
-      "valueWasTransferred": "The value of **{{0}}** was successfully transferred to the bank!\n### - 🔹 **Bank**: `{{1}}`\n### - 🔻 **Value**: `{{2}}`"
+      "valueWasWithdrawnFromBank": "O valor de **{{0}}** foi retirado com sucesso do banco!\n### - 🔻 **Banco:** `{{1}}`\n### - 📈 **Valor**: `{{2}}`",
+      "valueWasTransferred": "O valor de **{{0}}** foi transferido com sucesso para o banco!\n### - 🔹 **Banco**: `{{1}}`\n### - 🔻 **Valor**: `{{2}}`"
     },
     "interaction": {
-      "value": "Value",
-      "title": "Transfer"
+      "value": "Valor",
+      "title": "Transferência"
     },
     "error": {
-      "insufficientFundsForTransfer": "You have no funds to transfer to the bank.",
-      "insufficientBalanceToWithdraw": "Insufficient balance to withdraw",
-      "rejectedValue": "You entered a value of {{0}} while the total value is {{1}}. Please try again.",
-      "rejectedBankWithdrawalValue": "The value you are trying to withdraw, which is **`{{0}}`**, is too high! Please try again with a lower value.",
-      "valueIsInvalid": "The value you entered is invalid! Please try again.",
-      "valueNotAcceptable": "Oops! I think you entered **`-10000`** or something similar, which makes the value negative. If you want to remove the money from the bank, try clicking on the \"Withdraw Money\" button.",
-      "transactionWithError": "Oh no!!! There was a problem on our side and we couldn't transfer or withdraw the money. I am forwarding this to the team to resolve. Please try again later or in 20 minutes."
+      "insufficientFundsForTransfer": "Você não tem dinheiro para transferir para o banco.",
+      "insufficientBalanceToWithdraw": "Saldo insuficiente para sacar",
+      "rejectedValue": "Você digitou um valor de {{0}} enquanto o valor total é {{1}}. Por favor, tente novamente.",
+      "rejectedBankWithdrawalValue": "O valor que você está tentando retirar, que é **`{{0}}`**, é muito alto! Por favor, tente novamente com um valor menor.",
+      "valueIsInvalid": "O valor digitado é inválido! Por favor, tente novamente.",
+      "valueNotAcceptable": "Opa! Acho que você inseriu **`-10000`** ou algo parecido, o que torna o valor negativo. Se você quiser remover o dinheiro do banco, tente clicar no botão \"Sacar dinheiro\".",
+      "transactionWithError": "Ah não!!! Ocorreu um problema do nosso lado e não pudemos transferir ou sacar o dinheiro. Estou encaminhando isso para a minha equipe para resolver. Tente novamente mais tarde ou em 20 minutos."
     }
   },
   "rob": {
-    "error": "Oh, I'm sorry, but it seems that this job is not compatible.",
-    "timeout": "You'll need to wait 3 hours before running this command again",
-    "didNotFindAnyoneNearby": "I couldn't find any user on this server to steal from. We'll have to cancel this plan.",
-    "errorWhilePlanning": "Oh no! It looks like we've lost sight of the user. Should we try to search for them?",
-    "missionAccomplished": "Oh my, it seems like you have successfully stolen the {{0}} with a quantity of {{1}}.",
-    "youWereArrested": "Oh no, it looks like you've been caught by the police {{names of the police officers}}. You'll need to wait for 3 hours before you can use this command again."
+    "error": "Ah, sinto muito, mas parece que esse trabalho não é compatível.",
+    "timeout": "Você precisará esperar 3 horas antes de executar este comando novamente",
+    "didNotFindAnyoneNearby": "Não foi possível encontrar nenhum usuário neste servidor para roubar. Teremos que cancelar este plano.",
+    "errorWhilePlanning": "Ah não! Parece que perdemos de vista o usuário. Devemos tentar procurá-lo?",
+    "missionAccomplished": "Ah, meu deus, parece que você roubou com sucesso o {{0}} com quantidade de {{1}}.",
+    "youWereArrested": "Ah não, parece que você foi pego pela polícia {{names of the police officers}}. Você precisará esperar 3 horas para poder usar este comando novamente."
   },
   "userbanner": {
     "description": "Pega o banner de um usuário.",
@@ -37,7 +37,7 @@
     "userBanner": "Banner de {{0}}"
   },
   "inventory": {
-    "tips": "**Tip**: To view the profile type /profile or you can access the quick command which is **{{1}}**.",
+    "tips": "**Dica**: Para ver o perfil, digite /perfil ou você pode acessar o comando rápido, que é **{{1}}**.",
     "confirmationButton": "Sim, eu quero",
     "denyButton": "Não, eu não quero",
     "loadingPreview": "Carregando a preview do perfil espere um pouco.",
