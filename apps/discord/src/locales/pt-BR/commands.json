@@ -44,23 +44,23 @@
     "noDescription": "Sem descrição",
     "notAllowed": "parece que você não é a pessoa que executou este comando, você não pode fazer isso.",
     "background": {
-      "title": "Your Background Inventory ({{0}})",
-      "description": "Hello {{0}}, Welcome to your Background Inventory.",
-      "tipMessage": "If you have purchased something from the background store, simply click on the `Update` button. To select a background, click on the `Select this Background` button.",
-      "backgroundName": "Background: `{{0}}`",
-      "profile": "You are using profile `{{0}}`",
-      "backgroundQuantity": "You have {{0}} purchased and available for use!",
-      "used": "Currently using",
-      "selectBackground": "Select this Background",
-      "reload": "Update",
-      "backgroundDefault": "In use already (Disabled)",
-      "default": "🌟 User Default Background 🌟",
-      "unlocked": "Unlocked and ready to select",
-      "locked": "Background locked. Purchase at the store.",
-      "previewProfile": "Preview background on profile",
-      "needsToBuy": "This background is locked because you need to purchase it or buy the pack.",
-      "success": "The background was successfully changed on your profile.",
-      "error": "An error occurred while applying the background to your profile, please try again later."
+      "title": "Seu inventário de fundo de perfil ({{0}})",
+      "description": "Olá {{0}}, bem-vindo ao seu inventário de fundo de perfil.",
+      "tipMessage": "Se você comprou algo em segundo plano, clique no botão `Atualizar`. Para selecionar um plano de fundo, clique no botão `Selecionar este fundo de perfil`.",
+      "backgroundName": "Fundo de perfil: `{{0}}`",
+      "profile": "Você está usando o perfil `{{0}}`",
+      "backgroundQuantity": "Você comprou {{0}} e está disponível para uso!",
+      "used": "Atualmente usando",
+      "selectBackground": "Selecionar este fundo de perfil",
+      "reload": "Atualizar",
+      "backgroundDefault": "Atualmente usando (Desativado)",
+      "default": "🌟 Fundo Padrão do Usuário 🌟",
+      "unlocked": "Desbloqueado e pronto para selecionar",
+      "locked": "Fundo de perfil bloqueado. Compre na loja.",
+      "previewProfile": "Pré-visualizar plano de fundo no perfil",
+      "needsToBuy": "Este fundo de perfil está bloqueado porque você precisa comprá-lo ou comprar o pacote.",
+      "success": "O plano de fundo foi alterado com sucesso no seu perfil.",
+      "error": "Ocorreu um erro ao aplicar o plano de fundo no seu perfil, por favor, tente novamente mais tarde."
     },
     "profile": {
       "areYouSure": "Você tem certeza que você quer selecionar este perfil? Se sim, então clique em `Sim, eu quero` para confirmar, se não, então clique em `Não, eu não quero`",
@@ -70,37 +70,37 @@
       "welcome": "Olá! Bem-vindo ao seu inventário de perfil. Para selecionar o seu novo perfil, basta clicar no menu e selecionar qualquer um.",
       "profileUnavailable": "Este perfil ainda não está disponível, talvez em uma atualização futura ele será adicionado. Entre no meu servidor de suporte para ficar atualizado."
     },
-    "success": "Excellent! You are using profile **`{{0}}`** now."
+    "success": "Excelente! Você está usando o perfil **`{{0}}`** agora."
   },
   "work": {
-    "yes": "Yes, I want to change jobs.",
-    "no": "I changed my mind.",
-    "iChangedMyMind": "Ok. I canceled job change.",
-    "buttonConfirm": "I want this job.",
-    "rules": "**How does it work?**\n1 - When choosing the job you need to wait 8 hours until you receive yen that was selected in this command.\n2 - ||If you choose `Robber`, when executing command {{0}}, you will be able to steal money randomly on the server.||\n3 - Once you select the job, just run the command {{1}}.\n4 - If you are working on a schedule, you need to wait for that time to choose a new job.",
+    "yes": "Sim, quero mudar de emprego.",
+    "no": "Eu mudei de ideia.",
+    "iChangedMyMind": "Ok. Eu cancelei a mudança de emprego.",
+    "buttonConfirm": "Eu quero este trabalho.",
+    "rules": "**Como funciona? *\n1 - Ao escolher o trabalho, você precisa esperar 8 horas até receber ienes selecionados neste comando.\n2 - ||Se você escolher `Ladrão`, ao executar o comando {{0}}, você poderá roubar dinheiro aleatoriamente no servidor.||\n3 - Uma vez que você selecionar o trabalho, basta executar o comando {{1}}.\n4 - Se você está trabalhando em um cronograma, você precisa esperar esse tempo para escolher um novo emprego.",
     "choose": {
-      "title": "Welcome to the job interview.",
-      "description": "To select fun job just click on menu selection and choose job.",
-      "jobSelected": "You have selected the job `{{0}}`.",
-      "jobDescription": "Hello, you selected job **{{0}}**. This task works like this:\n\n🕙 Work for **{{1}}**.\n💴 **Salary**: __**{{2}}**__\n\n\n\n\n\n__🗒️ During work you want to change jobs, you need to wait until working time is over.__"
+      "title": "Bem-vindo à entrevista de trabalho.",
+      "description": "Para selecionar um trabalho divertido, basta clicar na seleção de menu e escolher o trabalho.",
+      "jobSelected": "Você selecionou o trabalho `{{0}}`.",
+      "jobDescription": "Olá, você selecionou o trabalho **{{0}}**. Esta tarefa funciona assim:\n\n🕙 Trabalhe para **{{1}}**.\n💴 **Salário**: __**{{2}}**__\n\n\n\n\n\n__🗒️ Se durante o trabalho você querer mudar de emprego, você precisa esperar até que o tempo de trabalho acabe.__"
     },
     "description": {
-      "busDriver": "no description",
-      "policie": "no description",
-      "robber": "no description",
-      "doctor": "no description",
-      "lawyer": "no description",
-      "cabby": "no description",
-      "domestic": "no description"
+      "busDriver": "Sem descrição",
+      "police": "Sem descrição",
+      "robber": "Sem descrição",
+      "doctor": "Sem descrição",
+      "lawyer": "Sem descrição",
+      "cabby": "Sem descrição",
+      "domestic": "Sem descrição"
     },
     "profession": {
-      "busDriver": "Bus Driver",
-      "policie": "Policie",
-      "robber": "Robber",
-      "doctor": "Doctor",
-      "lawyer": "Lawyer",
-      "cabby": "Cabby",
-      "domestic": "Domestic"
+      "busDriver": "Motorista de ônibus",
+      "police": "Policial",
+      "robber": "Ladrão",
+      "doctor": "Médico",
+      "lawyer": "Advogado",
+      "cabby": "Taxista",
+      "domestic": "Doméstica"
     },
     "contextSuccess": {
       "success": "Employment related success! Now to start working you need to run {{0}}.",
@@ -139,7 +139,7 @@
       "problemFound": "Eu detectei um problema ao executar a visualização de perfil. Você quer tentar novamente?\nSe o problema persistir, você pode reportar este bug para o meu suporte.",
       "profileUnavailable": "Este perfil ainda não está disponível, talvez em uma atualização futura ele será adicionado. Entre no meu servidor de suporte para ficar atualizado.",
       "purchaseCancelled": "Certo! Compra cancelada com sucesso!",
-      "successfullyPurchased": "Obrigada por comprar! O perfil está disponível no seu inventário.",
+      "successfullyPurchased": "Excelente! Muito obrigado por comprar o perfil, ele será transferido para seu inventário! Volte frequentemente. Você pode usar o comando {{0}} para alterar o perfil.",
       "youWantThisProfile": "Você tem certeza que você quer comprar este perfil? Se sim, então clique em `{{0}}` para confirmar, se não, então clique em `{{1}}`",
       "welcomeToTheShop": "Olá! Bem-vindo à loja de perfil decorativo. Você pode selecionar um desses perfis para ver o perfil. Lembre que se alguns não aparecer o botão verde para comprá-lo significa que você já comprou o perfil na sua conta!"
     },
@@ -589,7 +589,7 @@
     "poorUser": "você não possui ienes para completar essa transferência",
     "cancelled": "certo, transferência cancelada",
     "notTheAuthor": "{{0}} **|** {{1}} you are NOT {{2}}, so don't try to accept the transaction that {{2}} has created. Hmph!",
-    "bePatient": "{{0}} **|** {{1}} you have to wait for {{2}} to confirm the transaction, just be a little patient, okay?",
+    "bePatient": "{{0}} **|** {{1}} você precisa esperar por {{2}} para confirmar a transação, apenas seja um pouco paciente, ok?",
     "confirm": "{{user}} irá receber __`{{yens}}`__ ienes. Deseja continuar?"
   },
   "baka": {
