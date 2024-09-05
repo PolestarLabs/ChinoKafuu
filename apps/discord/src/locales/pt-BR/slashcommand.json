@@ -1,6 +1,6 @@
 {
   "bank": {
-    "description": "bank.description",
+    "description": "Show your current balance on the bank",
     "name": "bank"
   },
   "daily": {
