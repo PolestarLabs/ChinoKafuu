@@ -3,7 +3,7 @@
     "embedTitle": "Ocorreu um erro! Desculpe...",
     "fieldTitle": "Notifique-nos",
     "fieldValue": "Como provavelmente não sabemos sobre esse erro, você pode ou [abrir uma issue](https://github.com/RabbitHouseCorp/ChinoKafu/issues/new/choose) no GitHub ou entrar em contato conosco em nosso [servidor de suporte](https://discord.gg/Jr57UrsXeC). Não se esqueça de anexar esta _pequena mensagem_ ao relatar o erro.\nObrigada e desculpe!",
-    "commandExecuted": "Command that was executed"
+    "commandExecuted": "Comando executado"
   },
   "stopnotify": {
     "alreadyStopped": "desculpe mas, você já me informou para parar de te notificar sobre a migração.",
