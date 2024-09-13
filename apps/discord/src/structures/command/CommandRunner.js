@@ -24,7 +24,7 @@ export class CommandRunner {
     }))
 
     // eslint-disable-next-line security/detect-non-literal-regexp
-    const regexp = new RegExp(`^(${guildData.prefix.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')}|${process.env.GLOBAL_BOT_PREFIX}|<@!?${client.user.id}>)( )*`, 'gi')
+    const regexp = new RegExp(`^(${process.env.GLOBAL_BOT_PREFIX}|<@!?${client.user.id}>)( )*`, 'gi')
 
     if (!message.content.match(regexp)) return
 
