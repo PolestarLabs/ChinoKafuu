@@ -30,17 +30,18 @@ export const Emojis = {
   'cocoa_what': '<:cocoa_what:633409488820371515>',
   'chino_whoa': '<:chino_woah:685591415497293923>',
   'tools': '🛠️',
-  'botTag': '<:botTag:579456048142876672>',
-  'discord_logo': '<:discord_logo:961106728928313374>',
-  'discord_verified_bot': '<:discord_verified_bot:961117195256094770>',
-  'twitter': '<:twitter:963465266619113502> ',
+  'discord_app': '<:discord_app:1283910426148606035>',
+  'discord_logo': '<:discord:1283924041220231198>',
+  'discord_verified_app': '<:verified_app:1283910422566801509>',
+  'x': '<:x_:1283924045946945608>',
   'github': '<:github:963465452602949672>',
   'crowdin': '<:crowdin:963467722472177684> ',
-  'wumpus': '<:Wumpus:579455982053097485>',
+  'wumpus_heart': '<:wumpus_heart:1283948478694686803>',
   'photo_frame': '🖼️',
   'eris': '<:eris:967618691804057670>',
   'nodejs': '<:nodejs:967619029390991410>',
   'chino_pout': '<:chino_pout:564106391984275506>',
-  'chino_smile': '<:chino_smile:554079183265857851>'
+  'chino_smile': '<:chino_smile:554079183265857851>',
+  'bluesky': '<:bluesky:1283924038451986482>'
 }
 export const EmojisType = Object.keys(Emojis).map(([k]) => k)

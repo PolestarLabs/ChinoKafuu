@@ -32,6 +32,13 @@ export default class BotInfoCommand extends Command {
       `**${ctx._locale('commands:botinfo.clientVersion')}:** ${version} ${getCommit.commit === null ? '' : `[(${getCommit.commit.substring(0, 7)})](https://github.com/RabbitHouseCorp/ChinoKafuu/commit/${getCommit.commit})`}`,
       `**${ctx._locale('commands:botinfo.shardUptime')}:** <t:${parseInt(ctx.client.shardUptime.get(ctx.message.guild.shard.id).uptime / 1000).toFixed(0)}:R>`
     ]
+    const social_media = [
+      `[${Emoji.getEmoji('discord_logo').mention} | ${ctx._locale('commands:botinfo.supportServer')}](https://discord.gg/Jr57UrsXeC)`,
+      `[${Emoji.getEmoji('wumpus_heart').mention} | ${ctx._locale('commands:botinfo.voteOnMe')}](https://top.gg/bot/481282441294905344/vote)`,
+      `[${Emoji.getEmoji('x').mention} | X](https://x.com/@ChinoKafuuBot)`,
+      `[${Emoji.getEmoji('github').mention} | GitHub](https://github.com/RabbitHouseCorp/ChinoKafuu)`,
+      `[${Emoji.getEmoji('crowdin').mention} | Crowdin](https://crowdin.com/project/chinokafuu)`,
+    ]
     const embed = new EmbedBuilder()
     embed.setColor('DEFAULT')
     embed.setTitle(ctx._locale('commands:botinfo.title'))
@@ -39,41 +46,17 @@ export default class BotInfoCommand extends Command {
     embed.setFooter(`${ctx._locale('commands:botinfo.cpuModel')}: ${os.cpus().map(i => i.model)[0]}`)
     embed.setThumbnail(ctx.client.user.avatarURL)
     embed.addField(ctx._locale('commands:botinfo.specs'), description.join('\n'))
-    const support_server = new Button()
-      .setLabel(ctx._locale('commands:botinfo.supportServer'))
-      .setURL('https://discord.gg/Jr57UrsXeC')
-      .setStyle(5)
-      .setEmoji({ name: Emoji.getEmoji('discord_logo').name, id: Emoji.getEmoji('discord_logo').id })
+    embed.addField(ctx._locale('commands:botinfo.social_media'), social_media.join('\n'))
     const full_permission = new Button()
       .setLabel(ctx._locale('commands:botinfo.recommendedPermission'))
       .setURL(`https://discord.com/oauth2/authorize?client_id=${ctx.client.user.id}&permissions=1378654604670&scope=bot%20applications.commands`)
       .setStyle(5)
-      .setEmoji({ name: Emoji.getEmoji('discord_verified_bot').name, id: Emoji.getEmoji('discord_verified_bot').id })
+      .setEmoji({ name: Emoji.getEmoji('discord_verified_app').name, id: Emoji.getEmoji('discord_verified_app').id })
     const minimal_permission = new Button()
       .setLabel(ctx._locale('commands:botinfo.minimalPermission'))
       .setURL(`https://discord.com/oauth2/authorize?client_id=${ctx.client.user.id}&permissions=641068480&scope=bot%20applications.commands`)
       .setStyle(5)
-      .setEmoji({ name: Emoji.getEmoji('botTag').name, id: Emoji.getEmoji('botTag').id })
-    const twitter_button = new Button()
-      .setLabel('Twitter')
-      .setURL('https://twitter.com/ChinoKafuuBot')
-      .setStyle(5)
-      .setEmoji({ name: Emoji.getEmoji('twitter').name, id: Emoji.getEmoji('twitter').id })
-    const github_button = new Button()
-      .setLabel('GitHub')
-      .setURL('https://github.com/RabbitHouseCorp/ChinoKafuu')
-      .setStyle(5)
-      .setEmoji({ name: Emoji.getEmoji('github').name, id: Emoji.getEmoji('github').id })
-    const vote_button = new Button()
-      .setLabel(ctx._locale('commands:botinfo.voteOnMe'))
-      .setURL('https://top.gg/bot/481282441294905344/vote')
-      .setStyle(5)
-      .setEmoji({ name: Emoji.getEmoji('wumpus').name, id: Emoji.getEmoji('wumpus').id })
-    const crowdin_button = new Button()
-      .setLabel('Crowdin')
-      .setURL('https://crowdin.com/project/chinokafuu')
-      .setStyle(5)
-      .setEmoji({ name: Emoji.getEmoji('crowdin').name, id: Emoji.getEmoji('crowdin').id })
+      .setEmoji({ name: Emoji.getEmoji('discord_app').name, id: Emoji.getEmoji('discord_app').id })
 
     ctx.send({
       embeds: [embed],
@@ -81,11 +64,7 @@ export default class BotInfoCommand extends Command {
         [
           {
             type: 1,
-            components: [support_server, full_permission, minimal_permission, twitter_button, github_button]
-          },
-          {
-            type: 1,
-            components: [vote_button, crowdin_button]
+            components: [full_permission, minimal_permission]
           }
         ]
     })

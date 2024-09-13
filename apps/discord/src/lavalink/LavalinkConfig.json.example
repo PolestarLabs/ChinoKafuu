@@ -1,10 +1,10 @@
 {
   "connect": [
     {
-        "id": "1",
-        "host": "your lavalink ip",
-        "port": "your lavalink port",
-        "password": "your lavalink password"
+      "id": "1",
+      "host": "your lavalink ip",
+      "port": "your lavalink port",
+      "password": "your lavalink password"
     }
   ]
 }

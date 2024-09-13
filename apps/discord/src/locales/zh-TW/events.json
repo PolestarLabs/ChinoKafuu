@@ -2,7 +2,8 @@
   "executionFailure": {
     "embedTitle": "很抱歉，發生了一些錯誤！",
     "fieldTitle": "Notify us",
-    "fieldValue": "我們並不知道這項錯誤，你可以[在Github上回報問題](https://github.com/RabbitHouseCorp/ChinoKafuu/issues/new/choose)或者是到我們的[社群](https://discord.gg/Jr57UrsXeC)諮詢。在回報錯誤時請記得附加 _這則訊息_。\n非常感謝！"
+    "fieldValue": "我們並不知道這項錯誤，你可以[在Github上回報問題](https://github.com/RabbitHouseCorp/ChinoKafuu/issues/new/choose)或者是到我們的[社群](https://discord.gg/Jr57UrsXeC)諮詢。在回報錯誤時請記得附加 _這則訊息_。\n非常感謝！",
+    "commandExecuted": "Command that was executed"
   },
   "stopnotify": {
     "alreadyStopped": "sorry but, you already told me to stop notify you about the migration.",

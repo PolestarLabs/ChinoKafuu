@@ -5,17 +5,17 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "outDir": "./revolt/build/",
-    "rootDir": "./revolt/src/",
+    "outDir": "./apps/revolt/build/",
+    "rootDir": "./apps/revolt/src/",
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "sourceMap": false
   },
   "include": [
-    "revolt/src"
+    "apps/revolt/src"
   ],
   "exclude": [
     "node_modules",
-    "revolt/build"
+    "apps/revolt/build"
   ]
 }

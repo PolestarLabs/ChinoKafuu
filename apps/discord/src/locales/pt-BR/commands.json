@@ -1,35 +1,35 @@
 {
   "bank": {
-    "message": "### - 🔹 **Bank**: `{{0}}`\n### - 🔹 **Value**: `{{1}}`",
+    "message": "### - 🔹 **Banco**: `{{0}}`\n### - 🔹 **Valor**: `{{1}}`",
     "button": {
-      "transfer": "Transfer to bank",
-      "withDraw": "Withdraw money"
+      "transfer": "Transferir para o banco",
+      "withDraw": "Sacar dinheiro"
     },
     "success": {
-      "valueWasWithdrawnFromBank": "The value of **{{0}}** was successfully withdrawn from the bank!\n### - 🔻 **Bank:** `{{1}}`\n### - 📈 **Value**: `{{2}}`",
-      "valueWasTransferred": "The value of **{{0}}** was successfully transferred to the bank!\n### - 🔹 **Bank**: `{{1}}`\n### - 🔻 **Value**: `{{2}}`"
+      "valueWasWithdrawnFromBank": "O valor de **{{0}}** foi retirado com sucesso do banco!\n### - 🔻 **Banco:** `{{1}}`\n### - 📈 **Valor**: `{{2}}`",
+      "valueWasTransferred": "O valor de **{{0}}** foi transferido com sucesso para o banco!\n### - 🔹 **Banco**: `{{1}}`\n### - 🔻 **Valor**: `{{2}}`"
     },
     "interaction": {
-      "value": "Value",
-      "title": "Transfer"
+      "value": "Valor",
+      "title": "Transferência"
     },
     "error": {
-      "insufficientFundsForTransfer": "Você não tem valor nenhum para transferir para o banco.",
-      "insufficientBalanceToWithdraw": "Saldo insuficiente para retirar",
-      "rejectedValue": "You entered a value of {{0}} while the total value is {{1}}. Please try again.",
-      "rejectedBankWithdrawalValue": "The value you are trying to withdraw, which is **`{{0}}`**, is too high! Please try again with a lower value.",
-      "valueIsInvalid": "The value you entered is invalid! Please try again.",
-      "valueNotAcceptable": "Oops! I think you entered **`-10000`** or something similar, which makes the value negative. If you want to remove the money from the bank, try clicking on the \"Withdraw Money\" button.",
-      "transactionWithError": "Oh no!!! There was a problem on our side and we couldn't transfer or withdraw the money. I am forwarding this to the team to resolve. Please try again later or in 20 minutes."
+      "insufficientFundsForTransfer": "Você não tem dinheiro para transferir para o banco.",
+      "insufficientBalanceToWithdraw": "Saldo insuficiente para sacar",
+      "rejectedValue": "Você digitou um valor de {{0}} enquanto o valor total é {{1}}. Por favor, tente novamente.",
+      "rejectedBankWithdrawalValue": "O valor que você está tentando retirar, que é **`{{0}}`**, é muito alto! Por favor, tente novamente com um valor menor.",
+      "valueIsInvalid": "O valor digitado é inválido! Por favor, tente novamente.",
+      "valueNotAcceptable": "Opa! Acho que você inseriu **`-10000`** ou algo parecido, o que torna o valor negativo. Se você quiser remover o dinheiro do banco, tente clicar no botão \"Sacar dinheiro\".",
+      "transactionWithError": "Ah não!!! Ocorreu um problema do nosso lado e não pudemos transferir ou sacar o dinheiro. Estou encaminhando isso para a minha equipe para resolver. Tente novamente mais tarde ou em 20 minutos."
     }
   },
   "rob": {
-    "error": "Oh, I'm sorry, but it seems that this job is not compatible.",
-    "timeout": "You'll need to wait 3 hours before running this command again",
-    "didNotFindAnyoneNearby": "I couldn't find any user on this server to steal from. We'll have to cancel this plan.",
-    "errorWhilePlanning": "Oh no! It looks like we've lost sight of the user. Should we try to search for them?",
-    "missionAccomplished": "Oh my, it seems like you have successfully stolen the {{0}} with a quantity of {{1}}.",
-    "youWereArrested": "Oh no, it looks like you've been caught by the police {{names of the police officers}}. You'll need to wait for 3 hours before you can use this command again."
+    "error": "Ah, sinto muito, mas parece que esse trabalho não é compatível.",
+    "timeout": "Você precisará esperar 3 horas antes de executar este comando novamente",
+    "didNotFindAnyoneNearby": "Não foi possível encontrar nenhum usuário neste servidor para roubar. Teremos que cancelar este plano.",
+    "errorWhilePlanning": "Ah não! Parece que perdemos de vista o usuário. Devemos tentar procurá-lo?",
+    "missionAccomplished": "Ah, meu deus, parece que você roubou com sucesso o {{0}} com quantidade de {{1}}.",
+    "youWereArrested": "Ah não, parece que você foi pego pela polícia {{names of the police officers}}. Você precisará esperar 3 horas para poder usar este comando novamente."
   },
   "userbanner": {
     "description": "Pega o banner de um usuário.",
@@ -37,30 +37,30 @@
     "userBanner": "Banner de {{0}}"
   },
   "inventory": {
-    "tips": "**Tip**: To view the profile type /profile or you can access the quick command which is **{{1}}**.",
+    "tips": "**Dica**: Para ver o perfil, digite /perfil ou você pode acessar o comando rápido, que é **{{1}}**.",
     "confirmationButton": "Sim, eu quero",
     "denyButton": "Não, eu não quero",
     "loadingPreview": "Carregando a preview do perfil espere um pouco.",
     "noDescription": "Sem descrição",
     "notAllowed": "parece que você não é a pessoa que executou este comando, você não pode fazer isso.",
     "background": {
-      "title": "Your Background Inventory ({{0}})",
-      "description": "Hello {{0}}, Welcome to your Background Inventory.",
-      "tipMessage": "If you have purchased something from the background store, simply click on the `Update` button. To select a background, click on the `Select this Background` button.",
-      "backgroundName": "Background: `{{0}}`",
-      "profile": "You are using profile `{{0}}`",
-      "backgroundQuantity": "You have {{0}} purchased and available for use!",
-      "used": "Currently using",
-      "selectBackground": "Select this Background",
-      "reload": "Update",
-      "backgroundDefault": "In use already (Disabled)",
-      "default": "🌟 User Default Background 🌟",
-      "unlocked": "Unlocked and ready to select",
-      "locked": "Background locked. Purchase at the store.",
-      "previewProfile": "Preview background on profile",
-      "needsToBuy": "This background is locked because you need to purchase it or buy the pack.",
-      "success": "The background was successfully changed on your profile.",
-      "error": "An error occurred while applying the background to your profile, please try again later."
+      "title": "Seu inventário de fundo de perfil ({{0}})",
+      "description": "Olá {{0}}, bem-vindo ao seu inventário de fundo de perfil.",
+      "tipMessage": "Se você comprou algo em segundo plano, clique no botão `Atualizar`. Para selecionar um plano de fundo, clique no botão `Selecionar este fundo de perfil`.",
+      "backgroundName": "Fundo de perfil: `{{0}}`",
+      "profile": "Você está usando o perfil `{{0}}`",
+      "backgroundQuantity": "Você comprou {{0}} e está disponível para uso!",
+      "used": "Atualmente usando",
+      "selectBackground": "Selecionar este fundo de perfil",
+      "reload": "Atualizar",
+      "backgroundDefault": "Atualmente usando (Desativado)",
+      "default": "🌟 Fundo Padrão do Usuário 🌟",
+      "unlocked": "Desbloqueado e pronto para selecionar",
+      "locked": "Fundo de perfil bloqueado. Compre na loja.",
+      "previewProfile": "Pré-visualizar plano de fundo no perfil",
+      "needsToBuy": "Este fundo de perfil está bloqueado porque você precisa comprá-lo ou comprar o pacote.",
+      "success": "O plano de fundo foi alterado com sucesso no seu perfil.",
+      "error": "Ocorreu um erro ao aplicar o plano de fundo no seu perfil, por favor, tente novamente mais tarde."
     },
     "profile": {
       "areYouSure": "Você tem certeza que você quer selecionar este perfil? Se sim, então clique em `Sim, eu quero` para confirmar, se não, então clique em `Não, eu não quero`",
@@ -70,57 +70,57 @@
       "welcome": "Olá! Bem-vindo ao seu inventário de perfil. Para selecionar o seu novo perfil, basta clicar no menu e selecionar qualquer um.",
       "profileUnavailable": "Este perfil ainda não está disponível, talvez em uma atualização futura ele será adicionado. Entre no meu servidor de suporte para ficar atualizado."
     },
-    "success": "Excellent! You are using profile **`{{0}}`** now."
+    "success": "Excelente! Você está usando o perfil **`{{0}}`** agora."
   },
   "work": {
-    "yes": "Yes, I want to change jobs.",
-    "no": "I changed my mind.",
-    "iChangedMyMind": "Ok. I canceled job change.",
-    "buttonConfirm": "I want this job.",
-    "rules": "**How ​​does it work?**\n1 - When choosing the job you need to wait 8 hours until you receive yen that was selected in this command.\n2 - ||If you choose `Robber`, when executing command {{0}}, you will be able to steal money randomly on the server.||\n3 - Once you select the job, just run the command {{1}}.\n4 - If you are working on a schedule, you need to wait for that time to choose a new job.",
+    "yes": "Sim, quero mudar de emprego.",
+    "no": "Eu mudei de ideia.",
+    "iChangedMyMind": "Ok. Eu cancelei a mudança de emprego.",
+    "buttonConfirm": "Eu quero este trabalho.",
+    "rules": "**Como funciona?**\n1 - Ao escolher o trabalho, você precisa esperar 8 horas até receber ienes selecionados neste comando.\n2 - ||Se você escolher `Ladrão`, ao executar o comando {{0}}, você poderá roubar dinheiro aleatoriamente no servidor.||\n3 - Uma vez que você selecionar o trabalho, basta executar o comando {{1}}.\n4 - Se você está trabalhando em um cronograma, você precisa esperar esse tempo para escolher um novo emprego.",
     "choose": {
-      "title": "Welcome to the job interview.",
-      "description": "To select fun job just click on menu selection and choose job.",
-      "jobSelected": "You have selected the job `{{0}}`.",
-      "jobDescription": "Hello, you selected job **{{0}}**. This task works like this:\n\n🕙 Work for **{{1}}**.\n💴 **Salary**: __**{{2}}**__\n\n\n\n\n\n__🗒️ During work you want to change jobs, you need to wait until working time is over.__"
+      "title": "Bem-vindo à entrevista de trabalho.",
+      "description": "Para selecionar um trabalho divertido, basta clicar na seleção de menu e escolher o trabalho.",
+      "jobSelected": "Você selecionou o trabalho `{{0}}`.",
+      "jobDescription": "Olá, você selecionou o trabalho **{{0}}**. Esta tarefa funciona assim:\n\n🕙 Trabalhe para **{{1}}**.\n💴 **Salário**: __**{{2}}**__\n\n\n\n\n\n__🗒️ Se durante o trabalho você querer mudar de emprego, você precisa esperar até que o tempo de trabalho acabe.__"
     },
     "description": {
-      "busDriver": "no description",
-      "policie": "no description",
-      "robber": "no description",
-      "doctor": "no description",
-      "lawyer": "no description",
-      "cabby": "no description",
-      "domestic": "no description"
+      "busDriver": "Sem descrição",
+      "police": "Sem descrição",
+      "robber": "Sem descrição",
+      "doctor": "Sem descrição",
+      "lawyer": "Sem descrição",
+      "cabby": "Sem descrição",
+      "domestic": "Sem descrição"
     },
     "profession": {
-      "busDriver": "Bus Driver",
-      "policie": "Policie",
-      "robber": "Robber",
-      "doctor": "Doctor",
-      "lawyer": "Lawyer",
-      "cabby": "Cabby",
-      "domestic": "Domestic"
+      "busDriver": "Motorista de ônibus",
+      "police": "Policial",
+      "robber": "Ladrão",
+      "doctor": "Médico",
+      "lawyer": "Advogado",
+      "cabby": "Taxista",
+      "domestic": "Doméstica"
     },
     "contextSuccess": {
       "success": "Employment related success! Now to start working you need to run {{0}}.",
       "successSecret": "Sshh! Now you know the rules, you need to be careful not to get caught. To start the task you need to run {{0}}."
     },
     "errors": {
-      "currentlyWorking": "You are currently working and need to wait **{{0}}** to choose a new job.",
-      "message": "We saw that you currently have a job, are you sure you want to change jobs?",
-      "jobUnavailable": "Oh no! Something unexpected just happened, this job is currently unavailable. Try a few hours or another day.",
-      "wait": "You need to wait **8 hours** to start working again.",
-      "chooseAJob": "You need to choose a job to start working!",
-      "robError": "ssssh! You in a different job. Try running another command and try not to get caught.",
+      "currentlyWorking": "Você está trabalhando no momento e precisa esperar **{{0}}** para escolher um novo trabalho.",
+      "message": "Vimos que você atualmente tem um trabalho, tem certeza de que quer mudar de emprego?",
+      "jobUnavailable": "Ah, não! Algo inesperado acabou de acontecer, este trabalho está indisponível no momento. Tente algumas horas ou outro dia.",
+      "wait": "Você precisa esperar **8 horas** para começar a trabalhar novamente.",
+      "chooseAJob": "Você precisa escolher um emprego para começar a trabalhar!",
+      "robError": "ssssh! Você está em um trabalho diferente. Tente executar outro comando e tente não ser pego.",
       "cannotChangeJobsAtTheMoment": "Are you sure you want to change jobs? You recently started a job that you need to wait for **8 hours** to complete, after which you order it in the job exchange."
     },
     "messages": {
-      "salary": "Congratulations! You received {{0}} from working for 8 hours. You can deposit money by running command {{1}}. I renewed your work and it starts from now. "
+      "salary": "Parabéns! Você recebeu {{0}} do trabalho por 8 horas. Você pode depositar dinheiro executando o comando {{1}}. Eu renovei seu trabalho e ele começa a partir de agora. "
     }
   },
   "shop": {
-    "itemPurschased": "This item was purchased",
+    "itemPurschased": "Este item foi comprado",
     "background": {},
     "buttonDisabled": "**Aviso**: O botão está desativado por este motivo ->",
     "noIDont": "Não, eu não quero este perfil",
@@ -128,8 +128,8 @@
     "noDescription": "Sem descrição",
     "price": "",
     "profile": {
-      "buyProfile": "Now you can buy this profile for **`{{0}} yens`**.",
-      "profileInfo": "This profile costs **`{{0}} yens`**.",
+      "buyProfile": "Agora você pode comprar este perfil por **`{{0}} ienes`**.",
+      "profileInfo": "Este perfil custa **`{{0}} ienes`**.",
       "price": "I want to compose this profile for {{0}} yens",
       "valueInsufficientMessage": "You cannot buy this profile because it costs **{{0}} yens**, you need to gather **{{1}} yens** to buy it.",
       "valueInsufficient": "You cannot purchase this profile.",
@@ -139,7 +139,7 @@
       "problemFound": "Eu detectei um problema ao executar a visualização de perfil. Você quer tentar novamente?\nSe o problema persistir, você pode reportar este bug para o meu suporte.",
       "profileUnavailable": "Este perfil ainda não está disponível, talvez em uma atualização futura ele será adicionado. Entre no meu servidor de suporte para ficar atualizado.",
       "purchaseCancelled": "Certo! Compra cancelada com sucesso!",
-      "successfullyPurchased": "Obrigada por comprar! O perfil está disponível no seu inventário.",
+      "successfullyPurchased": "Excelente! Muito obrigado por comprar o perfil, ele será transferido para seu inventário! Volte frequentemente. Você pode usar o comando {{0}} para alterar o perfil.",
       "youWantThisProfile": "Você tem certeza que você quer comprar este perfil? Se sim, então clique em `{{0}}` para confirmar, se não, então clique em `{{1}}`",
       "welcomeToTheShop": "Olá! Bem-vindo à loja de perfil decorativo. Você pode selecionar um desses perfis para ver o perfil. Lembre que se alguns não aparecer o botão verde para comprá-lo significa que você já comprou o perfil na sua conta!"
     },
@@ -435,7 +435,14 @@
       "NEW_THREAD_PERMISSIONS": "Novas Permissões de Tópicos",
       "MEMBER_PROFILES": "Perfil de Membros",
       "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT": "Exposed to Activities WTP Experiment",
-      "AUTO_MODERATION": "Auto moderação"
+      "AUTO_MODERATION": "Auto moderação",
+      "SOUNDBOARD": "Soundboard",
+      "CHANNEL_ICON_EMOJIS_GENERATED": "Guild Icon Emojis Generated",
+      "GUILD_ONBOARDING": "Guild Onboarding",
+      "GUILD_ONBOARDING_EVER_ENABLED": "Guild Onboarding Ever Enabled",
+      "GUILD_SERVER_GUIDE": "Guild Server Guide",
+      "GUILD_ONBOARDING_HAS_PROMPTS": "Guild Onboarding Has Prompts",
+      "COMMUNITY_EXP_LARGE_GATED": "Community EXP Large Gated"
     },
     "booster": {
       "levelCount": "Nível de Impulsionamento",
@@ -582,7 +589,7 @@
     "poorUser": "você não possui ienes para completar essa transferência",
     "cancelled": "certo, transferência cancelada",
     "notTheAuthor": "{{0}} **|** {{1}} you are NOT {{2}}, so don't try to accept the transaction that {{2}} has created. Hmph!",
-    "bePatient": "{{0}} **|** {{1}} you have to wait for {{2}} to confirm the transaction, just be a little patient, okay?",
+    "bePatient": "{{0}} **|** {{1}} você precisa esperar por {{2}} para confirmar a transação, apenas seja um pouco paciente, ok?",
     "confirm": "{{user}} irá receber __`{{yens}}`__ ienes. Deseja continuar?"
   },
   "baka": {
