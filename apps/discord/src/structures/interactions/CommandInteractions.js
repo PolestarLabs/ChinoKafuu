@@ -1,5 +1,8 @@
+import { Button } from './Button'
+import { SelectionMenu } from './SelectionMenu'
+
 export class CommandInteractions {
-  constructor(message, commandContext) {
+  constructor (message, commandContext) {
     this.message = message
     this.ctx = commandContext
     this.component = []
@@ -16,7 +19,14 @@ export class CommandInteractions {
     const buttons = []
 
     for (const data of components) {
-      buttons.push(data.data())
+      if (data instanceof SelectionMenu) {
+        buttons.push(data.data())
+      } else if (data instanceof Button) {
+        buttons.push(data.build())
+      } else {
+        throw new Error('Not supported')
+      }
+
     }
 
     this.component.push({
