@@ -1,6 +1,6 @@
 import { InteractionFunction } from '../../structures/InteractionFunction';
 
-export default class DivorceInteraction extends InteractionFunction {
+export default class LanguageInteraction extends InteractionFunction {
   constructor() {
     super({
       name: 'languageInteraction',
