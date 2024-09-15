@@ -239,15 +239,40 @@
   },
   "help": {
     "commandList": "Danh sách lệnh",
-    "explain": "Muốn biết rõ thêm về một lệnh nào đó, hãy chat `{{0}}help [tên lệnh]` và mình sẽ giải thích tường tận về nó.",
-    "economy": "Kinh tế ({{0}})",
-    "fun": "Vui ({{0}})",
-    "image": "Thao tác với ảnh ({{0}})",
-    "minecraft": "Minecraft ({{0}})",
-    "misc": "Vài cái linh tinh ({{0}})",
-    "mod": "Quản lý ({{0}})",
-    "social": "Xã hội ({{0}})",
-    "utils": "Tiện ích ({{0}})",
+    "explain": "If you want know more about a command, just use {{0}} `[command]` and I will explain how use the command.\n\n**{{1}}**",
+    "select_category": "Select the category you wanna see",
+    "economy": {
+      "title": "Economy ({{0}})",
+      "description": "Shows all economy's commands available"
+    },
+    "fun": {
+      "title": "Fun ({{0}})",
+      "description": "Shows all fun's commands available"
+    },
+    "image": {
+      "title": "Image Manipulation ({{0}})",
+      "description": "Shows all image's commands available"
+    },
+    "minecraft": {
+      "title": "Minecraft ({{0}})",
+      "description": "Shows all images' commands available"
+    },
+    "misc": {
+      "title": "Miscellaneous ({{0}})",
+      "description": "Shows all miscellaneous' commands available"
+    },
+    "mod": {
+      "title": "Moderation ({{0}})",
+      "description": "Shows all moderation's commands available"
+    },
+    "social": {
+      "title": "Social ({{0}})",
+      "description": "Shows all social's commands available"
+    },
+    "utils": {
+      "title": "Utils ({{0}})",
+      "description": "Shows all utils' commands available"
+    },
     "description": "Cho bạn thấy toàn bộ khả năng của mình.",
     "commandsLoaded": "Mình có {{0}} các lệnh công khai đã load.",
     "additionalLinks": {
