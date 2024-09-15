@@ -239,15 +239,40 @@
   },
   "help": {
     "commandList": "Lista de comandos",
-    "explain": "Si quieres saber más sobre un comando, simplemente usa `{{0}}help [command]` y te explicaré cómo usar el comando.",
-    "economy": "Economía ({{0}})",
-    "fun": "Diversión ({{0}})",
-    "image": "Manipulación de imagen ({{0}})",
-    "minecraft": "Minecraft ({{0}})",
-    "misc": "Miscellanous ({{0}})",
-    "mod": "Moderación ({{0}})",
-    "social": "Social ({{0}})",
-    "utils": "Utilidades ({{0}})",
+    "explain": "If you want know more about a command, just use {{0}} `[command]` and I will explain how use the command.\n\n**{{1}}**",
+    "select_category": "Select the category you wanna see",
+    "economy": {
+      "title": "Economy ({{0}})",
+      "description": "Shows all economy's commands available"
+    },
+    "fun": {
+      "title": "Fun ({{0}})",
+      "description": "Shows all fun's commands available"
+    },
+    "image": {
+      "title": "Image Manipulation ({{0}})",
+      "description": "Shows all image's commands available"
+    },
+    "minecraft": {
+      "title": "Minecraft ({{0}})",
+      "description": "Shows all images' commands available"
+    },
+    "misc": {
+      "title": "Miscellaneous ({{0}})",
+      "description": "Shows all miscellaneous' commands available"
+    },
+    "mod": {
+      "title": "Moderation ({{0}})",
+      "description": "Shows all moderation's commands available"
+    },
+    "social": {
+      "title": "Social ({{0}})",
+      "description": "Shows all social's commands available"
+    },
+    "utils": {
+      "title": "Utils ({{0}})",
+      "description": "Shows all utils' commands available"
+    },
     "description": "Muestra mi lista de comandos.",
     "commandsLoaded": "Tengo {{0}} comandos públicos cargados.",
     "additionalLinks": {
