@@ -7,7 +7,7 @@ export const Emojis = {
   'success': '<:gochiusa_success:788464186752499732>',
   'chino_shock': '<:chino_shock:685198401863942156>',
   'yen': '💴',
-  'minecraft': '<:minecraft:504670650498285603>',
+  'minecraft': '<:minecraft:1284997558871003187>',
   'moneybag': '💰',
   'map': '🗺️',
   'ping_pong': '🏓',
@@ -42,6 +42,8 @@ export const Emojis = {
   'nodejs': '<:nodejs:967619029390991410>',
   'chino_pout': '<:chino_pout:564106391984275506>',
   'chino_smile': '<:chino_smile:554079183265857851>',
-  'bluesky': '<:bluesky:1283924038451986482>'
+  'bluesky': '<:bluesky:1283924038451986482>',
+  'home': '<:home:1283981021980917812>',
+  'cityscape': '🏙️'
 }
 export const EmojisType = Object.keys(Emojis).map(([k]) => k)
