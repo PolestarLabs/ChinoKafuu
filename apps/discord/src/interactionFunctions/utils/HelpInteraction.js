@@ -58,7 +58,8 @@ export default class HelpInteraction extends InteractionFunction {
           .addDescription(ctx._locale('commands:help.fun.description'))
           .setValue('fun')
           .addEmoji({
-            name: Emoji.getEmoji('yen').mention
+            name: Emoji.getEmoji('sharo_hug_chino').name,
+            id: Emoji.getEmoji('sharo_hug_chino').id
           }),
         new Options()
           .setLabel(ctx._locale('commands:help.image.title', { 0: filterByCategory('image').length }))
@@ -80,7 +81,7 @@ export default class HelpInteraction extends InteractionFunction {
           .addDescription(ctx._locale('commands:help.misc.description'))
           .setValue('misc')
           .addEmoji({
-            name: Emoji.getEmoji('yen').mention
+            name: Emoji.getEmoji('books').mention
           }),
         new Options()
           .setLabel(ctx._locale('commands:help.mod.title', { 0: filterByCategory('mod').length }))

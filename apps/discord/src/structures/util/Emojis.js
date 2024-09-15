@@ -44,6 +44,8 @@ export const Emojis = {
   'chino_smile': '<:chino_smile:554079183265857851>',
   'bluesky': '<:bluesky:1283924038451986482>',
   'home': '<:home:1283981021980917812>',
-  'cityscape': '🏙️'
+  'cityscape': '🏙️',
+  'sharo_hug_chino': '<:sharo_hug_chino:554079786725671119>',
+  'books': '📚'
 }
 export const EmojisType = Object.keys(Emojis).map(([k]) => k)
