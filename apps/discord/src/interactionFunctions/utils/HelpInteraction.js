@@ -11,7 +11,7 @@ export default class HelpInteraction extends InteractionFunction {
   }
 
   async interactionFunction({ getData, defineState, ctx, editMessage }) {
-    const { data, member, id } = getData()
+    const { data } = getData()
     const interaction = data?.values ? data?.values[0] : data.custom_id
 
     const slashCommands = ctx.client.commands.map((i) => {
