@@ -40,7 +40,7 @@ export default class ReadyConnectionListener extends Listener {
       { name: 'The Phantom Thief Lapin', type: 3 },
       { name: 'Miracle Girls Festival', type: 0 },
       { name: 'Chimame Chronicle', type: 0 },
-      { name: '� Follow me on BlueSky: @chinokafuu.moe', type: 1 }
+      { name: '🦋 Follow me on BlueSky: @chinokafuu.moe', type: 1 }
     ]
     const updateStatus = () => {
       // If the bot disconnects from WebSocket, we must pause message sending to update Chino's status.
