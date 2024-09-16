@@ -239,15 +239,40 @@
   },
   "help": {
     "commandList": "Liste des commandes",
-    "explain": "Si vous voulez en savoir plus sur une commande, utilisez simplement `{{0}}help [command]` et je vous expliquerai comment utiliser cette commande.",
-    "economy": "Économie ({{0}})",
-    "fun": "Pour le fun ({{0}})",
-    "image": "Manipulation d'images ({{0}})",
-    "minecraft": "Minecraft ({{0}})",
-    "misc": "Divers ({{0}})",
-    "mod": "Modération ({{0}})",
-    "social": "Social ({{0}})",
-    "utils": "Utilités ({{0}})",
+    "explain": "If you want know more about a command, just use {{0}} `[command]` and I will explain how use the command.\n\n**{{1}}**",
+    "select_category": "Select the category you wanna see",
+    "economy": {
+      "title": "Economy ({{0}})",
+      "description": "Shows all economy's commands available"
+    },
+    "fun": {
+      "title": "Fun ({{0}})",
+      "description": "Shows all fun's commands available"
+    },
+    "image": {
+      "title": "Image Manipulation ({{0}})",
+      "description": "Shows all image's commands available"
+    },
+    "minecraft": {
+      "title": "Minecraft ({{0}})",
+      "description": "Shows all images' commands available"
+    },
+    "misc": {
+      "title": "Miscellaneous ({{0}})",
+      "description": "Shows all miscellaneous' commands available"
+    },
+    "mod": {
+      "title": "Moderation ({{0}})",
+      "description": "Shows all moderation's commands available"
+    },
+    "social": {
+      "title": "Social ({{0}})",
+      "description": "Shows all social's commands available"
+    },
+    "utils": {
+      "title": "Utils ({{0}})",
+      "description": "Shows all utils' commands available"
+    },
     "description": "Montrez ma liste de commandes à vous.",
     "commandsLoaded": "J'ai {{0}} commandes publiques chargées.",
     "additionalLinks": {
@@ -487,6 +512,7 @@
     "recommendedPermission": "Ajoutez-moi avec toutes les permissions",
     "minimalPermission": "Ajoutez-moi avec les permissions minimales",
     "voteOnMe": "Votez pour moi",
+    "social_media": "Social media",
     "description": "Montre plus d'informations sur moi."
   },
   "mcavatar": {

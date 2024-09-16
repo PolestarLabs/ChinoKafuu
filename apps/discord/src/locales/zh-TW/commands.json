@@ -239,15 +239,40 @@
   },
   "help": {
     "commandList": "指令列表",
-    "explain": "If you want know more about a command, just use `{{0}}help [command]` and I will explain how use the command.",
-    "economy": "經濟（{{0}}）",
-    "fun": "娛樂（{{0}}）",
-    "image": "Image Manipulation ({{0}})",
-    "minecraft": "麥塊（{{0}}）",
-    "misc": "Miscellaneous ({{0}})",
-    "mod": "Moderation ({{0}})",
-    "social": "社交（{{0}}）",
-    "utils": "Utils ({{0}})",
+    "explain": "If you want know more about a command, just use {{0}} `[command]` and I will explain how use the command.\n\n**{{1}}**",
+    "select_category": "Select the category you wanna see",
+    "economy": {
+      "title": "Economy ({{0}})",
+      "description": "Shows all economy's commands available"
+    },
+    "fun": {
+      "title": "Fun ({{0}})",
+      "description": "Shows all fun's commands available"
+    },
+    "image": {
+      "title": "Image Manipulation ({{0}})",
+      "description": "Shows all image's commands available"
+    },
+    "minecraft": {
+      "title": "Minecraft ({{0}})",
+      "description": "Shows all images' commands available"
+    },
+    "misc": {
+      "title": "Miscellaneous ({{0}})",
+      "description": "Shows all miscellaneous' commands available"
+    },
+    "mod": {
+      "title": "Moderation ({{0}})",
+      "description": "Shows all moderation's commands available"
+    },
+    "social": {
+      "title": "Social ({{0}})",
+      "description": "Shows all social's commands available"
+    },
+    "utils": {
+      "title": "Utils ({{0}})",
+      "description": "Shows all utils' commands available"
+    },
     "description": "Show my command list to you.",
     "commandsLoaded": "I have {{0}} public commands loaded.",
     "additionalLinks": {
@@ -487,6 +512,7 @@
     "recommendedPermission": "Add me with all permissions",
     "minimalPermission": "Add me with the mininal permissions",
     "voteOnMe": "Vote on me",
+    "social_media": "Social media",
     "description": "Shows more information about me."
   },
   "mcavatar": {
