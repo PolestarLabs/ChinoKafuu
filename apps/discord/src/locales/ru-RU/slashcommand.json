@@ -12,7 +12,7 @@
     "options": {
       "option0": {
         "name": "choice",
-        "description": "Choose one of these options.",
+        "description": "Choose one of the options.",
         "choices": {
           "choice0": {
             "name": "rock"
@@ -32,24 +32,24 @@
       }
     },
     "name": "jankenpon",
-    "description": "Plays jankenpon and win or lose yens"
+    "description": "Plays jankenpon with me and have a chance to win"
   },
   "shop": {
     "options": {
       "option0": {
         "name": "profile",
-        "description": "You can buy a new profile that is in my stock.",
+        "description": "Allows you to buy a new profile that is in my shop stock.",
         "choices": {}
       }
     },
     "name": "shop",
-    "description": "The shop command that allows you to buy new things to customize your account."
+    "description": "The shop command allows you to buy new things to customize your profile."
   },
   "yens": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention of the member.",
+        "description": "The user you want to see the balance.",
         "choices": {}
       }
     },
@@ -60,12 +60,12 @@
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user you want to call baka.",
         "choices": {}
       }
     },
     "name": "baka",
-    "description": "Calls a user baka"
+    "description": "Call someone that annoyed you baka!"
   },
   "cat": {
     "options": {},
@@ -87,28 +87,28 @@
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user that you want to dance with",
         "choices": {}
       }
     },
     "name": "dance",
-    "description": "Calls a user dance"
+    "description": "Call somente to dance with you."
   },
   "fakemsg": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user that you want to pretend to be",
         "choices": {}
       },
       "option1": {
         "name": "text",
-        "description": "Enter random text",
+        "description": "The text you want the webhook to say",
         "choices": {}
       }
     },
     "name": "fakemsg",
-    "description": "Prank on someone with a fake message through webhook."
+    "description": "Prank someone with a fake message through webhook."
   },
   "dog": {
     "options": {},
@@ -119,18 +119,18 @@
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user you want to feed",
         "choices": {}
       }
     },
     "name": "feed",
-    "description": "Feeds a user"
+    "description": "Give food to someone you would like."
   },
   "hug": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user you want to hug.",
         "choices": {}
       }
     },
@@ -141,12 +141,12 @@
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user that you want to kiss",
         "choices": {}
       }
     },
     "name": "kiss",
-    "description": "Kiss your true love (or not)."
+    "description": "Kiss your true love (or a friend of yours)."
   },
   "congaparrot": {
     "options": {
@@ -157,77 +157,77 @@
       }
     },
     "name": "congaparrot",
-    "description": "Sends funny parrots"
+    "description": "Sends funny dancing parrots"
   },
   "pat": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user you want to pat",
         "choices": {}
       }
     },
     "name": "pat",
-    "description": "Pat, pat, pat me, please! Give a pat to your friend."
+    "description": "Show someone a bit of affection."
   },
   "poke": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user you want to poke",
         "choices": {}
       }
     },
     "name": "poke",
-    "description": "Poke someone on your server."
+    "description": "Poke someone just to annoy them."
   },
   "slap": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user you want to slap",
         "choices": {}
       }
     },
     "name": "slap",
-    "description": "Slap someone on your server."
+    "description": "Slap someone on the face."
   },
   "tickle": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user you want to tickle",
         "choices": {}
       }
     },
     "name": "tickle",
-    "description": "Hahahaha, it tickles! Make it stop! Tickle someone on your server."
+    "description": "\"Hahahaha, it tickles! Make it stop!\" Tickle someone you'd like."
   },
   "minecraft": {
     "options": {
       "option0": {
         "name": "avatar",
-        "description": "Shows a player's minecraft avatar.",
+        "description": "Shows a minecraft player's avatar.",
         "choices": {}
       },
       "option1": {
         "name": "body",
-        "description": "Shows a player's minecraft avatar.",
+        "description": "Shows a minecraft player's avatar.",
         "choices": {}
       },
       "option2": {
         "name": "head",
-        "description": "Shows a player's minecraft head.",
+        "description": "Shows a minecraft player's head.",
         "choices": {}
       },
       "option3": {
         "name": "skin",
-        "description": "Shows a player's minecraft skin.",
+        "description": "Shows a minecraft player's skin.",
         "choices": {}
       },
       "option4": {
         "name": "query",
-        "description": "Show a Minecraft server info",
+        "description": "Shows a Minecraft server info",
         "choices": {}
       }
     },
@@ -238,38 +238,38 @@
     "options": {
       "option0": {
         "name": "name",
-        "description": "Insert anime name to search result.",
+        "description": "Inform the name of the anime to search result.",
         "choices": {}
       }
     },
     "name": "anime",
-    "description": "Shows some information about a anime."
+    "description": "Shows some information about an anime."
   },
   "animu": {
     "options": {
       "option0": {
         "name": "leave",
-        "description": "Disconnect Chino Kafuu in the voice channel.",
+        "description": "Disconnect me of a voice channel.",
         "choices": {}
       },
       "option1": {
         "name": "nowplaying",
-        "description": "Show what's playing on Animu",
+        "description": "Shows what is playing on Animu radio",
         "choices": {}
       },
       "option2": {
         "name": "volume",
-        "description": "Change the volume sound.",
+        "description": "Changes the volume of the song.",
         "choices": {}
       },
       "option3": {
         "name": "play",
-        "description": "Play Animu music on voice channel.",
+        "description": "Plays the Animu radio in a voice channel.",
         "choices": {}
       }
     },
     "name": "animu",
-    "description": "Starts the Animu Radio"
+    "description": "Commands of the Animu radio"
   },
   "botinfo": {
     "options": {},
@@ -285,29 +285,29 @@
       }
     },
     "name": "choose",
-    "description": "Makes the bot choose something"
+    "description": "Makes me choose something for you"
   },
   "invite": {
     "options": {},
     "name": "invite",
-    "description": "Shows how you can add me in your server."
+    "description": "Shows how you can add me in other server."
   },
   "manga": {
     "options": {
       "option0": {
         "name": "name",
-        "description": "Shows some information about an manga",
+        "description": "Shows some information about a manga",
         "choices": {}
       }
     },
     "name": "manga",
-    "description": "Shows some information about an manga"
+    "description": "Shows some information about a manga"
   },
   "ping": {
     "options": {
       "option0": {
         "name": "options",
-        "description": "Choose one of these options to view.",
+        "description": "Choose one of the options to see the details.",
         "choices": {
           "choice0": {
             "name": "shards"
@@ -319,7 +319,7 @@
       }
     },
     "name": "ping",
-    "description": "View the latency of Discord."
+    "description": "Shows the latency between me, the Discord API and my database."
   },
   "vote": {
     "options": {},
@@ -340,66 +340,66 @@
       }
     },
     "name": "addemoji",
-    "description": "Creates an new emoji to your guild."
+    "description": "Creates a new emoji on the server."
   },
   "addrole": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user you want to give the role",
         "choices": {}
       },
       "option1": {
         "name": "role",
-        "description": "Mention the role on the server",
+        "description": "The role you want to give to the user",
         "choices": {}
       }
     },
     "name": "addrole",
-    "description": "You can get your daily yens by using this command"
+    "description": "Adds a role to the user of your choice."
   },
   "announce": {
     "options": {
       "option0": {
         "name": "channel",
-        "description": "Send a announce to channel.",
+        "description": "The channel you want to send the message.",
         "choices": {}
       },
       "option1": {
         "name": "text",
-        "description": "Send a announce to current server for all members (or not).",
+        "description": "The message you want to send.",
         "choices": {}
       }
     },
     "name": "announce",
-    "description": "Send a announce to current server for all members (or not)."
+    "description": "Sends an announce to the current server for all members (or not)."
   },
   "ban": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "To ban user.",
+        "description": "The user you want to ban.",
         "choices": {}
       },
       "option1": {
         "name": "reason",
-        "description": "Enter reason to ban user.",
+        "description": "The reason of the ban.",
         "choices": {}
       },
       "option2": {
         "name": "message_days",
-        "description": "Bans user with an optional timeframe.",
+        "description": "The amount of days of the user's last messages that was sent.",
         "choices": {}
       }
     },
     "name": "ban",
-    "description": "Bans a user in the guild"
+    "description": "Bans a permanetly user of the server."
   },
   "chat": {
     "options": {
       "option0": {
         "name": "mode",
-        "description": "Locks the chat, updating the `Send Messages` permissions for the `@everyone` role",
+        "description": "Locks the channel, updating the \"Send Messages\" permissions to @everyone.",
         "choices": {
           "choice0": {
             "name": "off"
@@ -411,7 +411,7 @@
       }
     },
     "name": "chat",
-    "description": "Locks the chat, updating the `Send Messages` permissions for the `@everyone` role"
+    "description": "Locks the channel, updating the \"Send Messages\" permissions to @everyone."
   },
   "clear": {
     "options": {
@@ -422,55 +422,55 @@
       },
       "option1": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The author of the message you want to delete.",
         "choices": {}
       }
     },
     "name": "clear",
-    "description": "Clears messages in this channel. If specified a user, it clears messages from that user"
+    "description": "Clears the messages on this channel. If specified a user, it clears the messages of the user"
   },
   "config": {
     "options": {
       "option0": {
         "name": "animu",
-        "description": "Animu Radio",
+        "description": "The Animu Radio settings.",
         "choices": {}
       },
       "option1": {
         "name": "mod",
-        "description": "Mod Log",
+        "description": "The Mod Log settings.",
         "choices": {}
       },
       "option2": {
         "name": "report",
-        "description": "Report Module",
+        "description": "The Report settings",
         "choices": {}
       }
     },
     "name": "config",
-    "description": "Enable and disable some modules who I have in your guild."
+    "description": "Enable or disable the modules that I have."
   },
   "kick": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "To kick user.",
+        "description": "The user you want to kick.",
         "choices": {}
       },
       "option1": {
         "name": "reason",
-        "description": "Reason fo the punishment",
+        "description": "Reason of the punishment",
         "choices": {}
       }
     },
     "name": "kick",
-    "description": "Kicks an user in the guild"
+    "description": "Kicks an member of the guild"
   },
   "mute": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "To mute the member.",
+        "description": "The member you want to mute.",
         "choices": {}
       },
       "option1": {
@@ -480,45 +480,45 @@
       },
       "option2": {
         "name": "reason",
-        "description": "Enter reason to mute the member.",
+        "description": "The reason to mute the member.",
         "choices": {}
       }
     },
     "name": "mute",
-    "description": "Mutes a member in the guild"
+    "description": "Mutes a member of the server."
   },
   "removeemoji": {
     "options": {
       "option0": {
         "name": "emoji",
-        "description": "Removes an emoji in the current guild.",
+        "description": "The emoji you want to remove.",
         "choices": {}
       }
     },
     "name": "removeemoji",
-    "description": "Removes an emoji in the current guild."
+    "description": "Removes an emoji of the current server."
   },
   "removerole": {
     "options": {
       "option0": {
         "name": "member",
-        "description": "The guild member who you want remove the role.",
+        "description": "The the member that you want to remove the role.",
         "choices": {}
       },
       "option1": {
         "name": "role",
-        "description": "The role of the guild member that actually have.",
+        "description": "The role of the member that you want to remove.",
         "choices": {}
       }
     },
     "name": "removerole",
-    "description": "Removes a role from a guild member."
+    "description": "Removes a role of a member of the server."
   },
   "renameemoji": {
     "options": {
       "option0": {
         "name": "emoji",
-        "description": "The emoji that you want rename.",
+        "description": "The emoji that you want to rename.",
         "choices": {}
       },
       "option1": {
@@ -528,29 +528,29 @@
       }
     },
     "name": "renameemoji",
-    "description": "Rename the name of an emoji."
+    "description": "Changes the name of an emoji."
   },
   "baninfo": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention the member on the server",
+        "description": "The user that you want to see about the ban information",
         "choices": {}
       }
     },
     "name": "baninfo",
-    "description": "Check the ban information about a user"
+    "description": "Shows the ban information of someone that is banned of the server."
   },
   "report": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention member on server.",
+        "description": "The member you want to report.",
         "choices": {}
       },
       "option1": {
         "name": "reason",
-        "description": "Inform the reason why to report the user.",
+        "description": "The reason of the report.",
         "choices": {}
       },
       "option2": {
@@ -560,18 +560,18 @@
       }
     },
     "name": "report",
-    "description": "Reports a user on this server if the module is enable."
+    "description": "Reports an member of the server if the module is enable."
   },
   "rolecolor": {
     "options": {
       "option0": {
         "name": "role",
-        "description": "Mention role on server.",
+        "description": "The role that you want to change the color.",
         "choices": {}
       },
       "option1": {
         "name": "color",
-        "description": "For example: #f55f96",
+        "description": "The color you want to set for the role (e.g: #f55f96)",
         "choices": {}
       }
     },
@@ -582,7 +582,7 @@
     "options": {
       "option0": {
         "name": "channel",
-        "description": "Mention of the channel who you want rename.",
+        "description": "Mention of the channel that you want rename.",
         "choices": {}
       },
       "option1": {
@@ -592,7 +592,7 @@
       }
     },
     "name": "renamechannel",
-    "description": "Renames a channel in the current guild."
+    "description": "Renames a channel of the current server."
   },
   "setbanner": {
     "options": {
@@ -614,18 +614,18 @@
       }
     },
     "name": "seticon",
-    "description": "Set an icon in the current guild."
+    "description": "Changes the icon of the server."
   },
   "softban": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention member on server.",
+        "description": "The member you want to softban.",
         "choices": {}
       },
       "option1": {
         "name": "reason",
-        "description": "Inform reason",
+        "description": "The reason of the softban",
         "choices": {}
       },
       "option2": {
@@ -635,39 +635,39 @@
       }
     },
     "name": "softban",
-    "description": "Soft bans a user. If `purge-days` ends unspecified, the default value (7) will be used."
+    "description": "Soft bans an user. If `purge-days` is unspecified, the default value (7) will be used."
   },
   "setnick": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "Mention member on server.",
+        "description": "The member you want to change the nickname.",
         "choices": {}
       },
       "option1": {
         "name": "nickname",
-        "description": "Add a new nickname.",
+        "description": "The new nickname of the member.",
         "choices": {}
       }
     },
     "name": "setnick",
-    "description": "Sets the nickname of a member"
+    "description": "Changes or add a nickname to a member"
   },
   "unban": {
     "options": {
       "option0": {
         "name": "user",
-        "description": "ID of the banned user.",
+        "description": "ID or username of the user that is banned.",
         "choices": {}
       },
       "option1": {
         "name": "reason",
-        "description": "Inform reason",
+        "description": "The reason fo the unban",
         "choices": {}
       }
     },
     "name": "unban",
-    "description": "Unbans a user if they're banned."
+    "description": "Unbans an user if the user is banned."
   },
   "unmute": {
     "options": {
@@ -760,7 +760,7 @@
     "options": {
       "option0": {
         "name": "command",
-        "description": "Command name",
+        "description": "The name of the command",
         "choices": {}
       }
     },
