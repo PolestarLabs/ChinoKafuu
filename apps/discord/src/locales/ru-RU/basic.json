@@ -81,7 +81,7 @@
       "reason": "Причина"
     },
     "reason": "Punished by: {{0}} - Reason: {{1}}",
-    "bigReason": "you must write an shorter reason, this reason is too big to me.",
+    "bigReason": "you must write a shorter reason, this reason is too big to me.",
     "selfPunishment": "sorry, but, as you're unable to punish yourself on normal Discord, you can't punish yourself by me.",
     "ownerPunish": "have you lost your mind? You can't punish this person, they're the owner of this guild.",
     "error": "I couldn't punish this member. Perhaps their roles are higher than mine. Check the roles and try again."

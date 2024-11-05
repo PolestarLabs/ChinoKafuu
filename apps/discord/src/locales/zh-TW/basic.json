@@ -81,7 +81,7 @@
       "reason": "原因"
     },
     "reason": "懲罰者：{{0}} - 原因：{{1}}",
-    "bigReason": "你必須寫一個簡短的理由，這個理由對我來說攏長了。",
+    "bigReason": "you must write a shorter reason, this reason is too big to me.",
     "selfPunishment": "抱歉，但是，由於您無法在正常的 Discord 上懲罰自己，因此您無法通過我來懲罰自己。",
     "ownerPunish": "你瘋了嗎？你不能懲罰這個人，他們是這個伺服器的主人。",
     "error": "我不能懲罰這個成員。也許他們的身分組比我高。檢查身分組並重試。"

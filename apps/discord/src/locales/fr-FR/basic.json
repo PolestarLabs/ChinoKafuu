@@ -81,7 +81,7 @@
       "reason": "Raison"
     },
     "reason": "Sanctionné par: {{0}} - Raison: {{1}}",
-    "bigReason": "tu dois écrire une raison plus courte, cette raison est trop longue pour moi.",
+    "bigReason": "you must write a shorter reason, this reason is too big to me.",
     "selfPunishment": "désolé, mais, comme vous ne pouvez pas vous punir sur le Discord normal, vous ne pouvez pas vous punir par moi.",
     "ownerPunish": "tu as perdu la tête ? Tu ne peux pas punir cette personne, c'est le propriétaire de ce serveur.",
     "error": "Je ne pouvais pas punir ce membre. Peut-être que ses rôles sont plus élevés que les miens. Vérifiez les rôles et réessayez."
