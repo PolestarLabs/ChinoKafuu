@@ -81,7 +81,7 @@
       "reason": "Motivo"
     },
     "reason": "Punido por: {{0}} - Motivo: {{1}}",
-    "bigReason": "você deve digitar um motivo menor, esse motivo é muito grande para mim.",
+    "bigReason": "you must write a shorter reason, this reason is too big to me.",
     "selfPunishment": "desculpe, mas como você não pode se punir no Discord normal, você não pode se punir por mim.",
     "ownerPunish": "você perdeu sua cabeça? Você não pode punir está pessoa, ele(a) é o dono desse servidor.",
     "error": "eu não pude punir este membro. Provavelmente os cargos dele são maiores do que os meus. Verifique os cargos e tente novamente."
