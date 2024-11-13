@@ -111,42 +111,42 @@ export default class HelpInteraction extends InteractionFunction {
         switch (state) {
           case 'economy':
             embed.setColor('DEFAULT')
-            embed.addField(ctx._locale('commands:help.economy.title', { 0: filterByCategory('economy').length }), filterByCategory('economy').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
+            embed.addField(ctx._locale('commands:help.economy.title', { 0: filterByCategory('economy').length }), filterByCategory('economy').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} » ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
             editMessage({ embeds: [embed] })
             break;
           case 'fun':
             embed.setColor('DEFAULT')
-            embed.addField(ctx._locale('commands:help.fun.title', { 0: filterByCategory('fun').length }), filterByCategory('fun').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
+            embed.addField(ctx._locale('commands:help.fun.title', { 0: filterByCategory('fun').length }), filterByCategory('fun').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} » ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
             editMessage({ embeds: [embed], components: [{ type: 1, components: [select_menu] }, { type: 1, components: [home_button.build()] }] })
             break;
           case 'image':
             embed.setColor('DEFAULT')
-            embed.addField(ctx._locale('commands:help.image.title', { 0: filterByCategory('image').length }), filterByCategory('image').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
+            embed.addField(ctx._locale('commands:help.image.title', { 0: filterByCategory('image').length }), filterByCategory('image').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} » ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
             editMessage({ embeds: [embed], components: [{ type: 1, components: [select_menu] }, { type: 1, components: [home_button.build()] }] })
             break;
           case 'minecraft':
             embed.setColor('DEFAULT')
-            embed.addField(ctx._locale('commands:help.minecraft.title', { 0: filterByCategory('minecraft').length }), filterByCategory('minecraft').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
+            embed.addField(ctx._locale('commands:help.minecraft.title', { 0: filterByCategory('minecraft').length }), filterByCategory('minecraft').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} » ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
             editMessage({ embeds: [embed], components: [{ type: 1, components: [select_menu] }, { type: 1, components: [home_button.build()] }] })
             break;
           case 'misc':
             embed.setColor('DEFAULT')
-            embed.addField(ctx._locale('commands:help.misc.title', { 0: filterByCategory('misc').length }), filterByCategory('misc').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
+            embed.addField(ctx._locale('commands:help.misc.title', { 0: filterByCategory('misc').length }), filterByCategory('misc').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} » ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
             editMessage({ embeds: [embed], components: [{ type: 1, components: [select_menu] }, { type: 1, components: [home_button.build()] }] })
             break;
           case 'mod':
             embed.setColor('DEFAULT')
-            embed.addField(ctx._locale('commands:help.mod.title', { 0: filterByCategory('mod').length }), filterByCategory('mod').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
+            embed.addField(ctx._locale('commands:help.mod.title', { 0: filterByCategory('mod').length }), filterByCategory('mod').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} » ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
             editMessage({ embeds: [embed], components: [{ type: 1, components: [select_menu] }, { type: 1, components: [home_button.build()] }] })
             break;
           case 'social':
             embed.setColor('DEFAULT')
-            embed.addField(ctx._locale('commands:help.social.title', { 0: filterByCategory('social').length }), filterByCategory('social').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
+            embed.addField(ctx._locale('commands:help.social.title', { 0: filterByCategory('social').length }), filterByCategory('social').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} » ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
             editMessage({ embeds: [embed], components: [{ type: 1, components: [select_menu] }, { type: 1, components: [home_button.build()] }] })
             break;
           case 'utils':
             embed.setColor('DEFAULT')
-            embed.addField(ctx._locale('commands:help.utils.title', { 0: filterByCategory('utils').length }), filterByCategory('utils').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
+            embed.addField(ctx._locale('commands:help.utils.title', { 0: filterByCategory('utils').length }), filterByCategory('utils').map(cmd => `${slashCommands.find((command) => command.name === cmd.name)?.mention ?? `\`/${cmd.name}\``} » ${slashCommands.find((command) => command.name === cmd.name)?.description ?? cmd?.description}`).join('\n'))
             editMessage({ embeds: [embed], components: [{ type: 1, components: [select_menu] }, { type: 1, components: [home_button.build()] }] })
             break;
           case 'home_button':
