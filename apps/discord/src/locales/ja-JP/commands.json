@@ -139,7 +139,7 @@
       "problemFound": "I detected a problem running profile preview, do you want to try again?\nIf the problem persists you can report this bug to my support.",
       "profileUnavailable": "This profile isn't available yet, maybe in a future update it will be added. Join my support server to stay up to date.",
       "purchaseCancelled": "Right! Purchase successfully cancelled!",
-      "successfullyPurchased": "Thank you for buying! The profile is available in your inventory.",
+      "successfullyPurchased": "Excellent! Thank you very much for purchasing the profile, it is being transferred to your inventory! Check back often. You can use command {{0}} to change profile.",
       "youWantThisProfile": "Are you sure you want to buy this profile? If so, then click in `{{0}}` to confirm, if not, then click in `{{1}}`",
       "welcomeToTheShop": "Hello! Welcome to the decorative profile shop. You can select one of these profiles to view the profile. Remembering if some do not appear green button to buy it means that you already have the profile purchased in your account!"
     },
@@ -277,7 +277,7 @@
     "commandsLoaded": "I have {{0}} public commands loaded.",
     "additionalLinks": {
       "embedTitle": "Additional Links",
-      "embedDescription": "[My invite](https://discord.com/oauth2/authorize?client_id={{0}}&scope=bot%20applications.commands&permissions=8560045566) | [top.gg](https://top.gg/bot/481282441294905344) | [My server](https://discord.gg/Jr57UrsXeC)"
+      "embedDescription": "[My invite](https://discord.com/oauth2/authorize?client_id={{0}}&permissions=1378654604670&scope=bot%20applications.commands) | [top.gg](https://top.gg/bot/481282441294905344) | [My server](https://discord.gg/Jr57UrsXeC)"
     }
   },
   "rep": {
@@ -493,7 +493,7 @@
   },
   "invite": {
     "addMeInYourGuild": "Add me in your guild",
-    "canAddMe": "You can invite me to your Discord server by clicking [here](https://discord.com/oauth2/authorize?client_id={{0}}&scope=bot%20applications.commands&permissions=8560045566).\nDon't forget to vote me by clicking [here](https://top.gg/bot/481282441294905344/vote)\n\nDo you need help? Join my support server by clicking [here](https://discord.gg/Jr57UrsXeC). Thank you and see you later.",
+    "canAddMe": "You can invite me to your Discord server by clicking [here](https://discord.com/oauth2/authorize?client_id={{0}}&permissions=1378654604670&scope=bot%20applications.commands).\nDon't forget to vote me by clicking [here](https://top.gg/bot/481282441294905344/vote)\n\nDo you need help? Join my support server by clicking [here](https://discord.gg/Jr57UrsXeC). Thank you and see you later.",
     "description": "Shows how you can add me in your server."
   },
   "botinfo": {
