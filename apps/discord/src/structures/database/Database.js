@@ -121,13 +121,14 @@ export class Database extends EventEmitter {
   #connect() {
     if (process.env.DISCORD_MONGO_URI) {
       mongoose.set('strictQuery', true)
-      mongoose.connect(process.env.DISCORD_MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true }, (err) => {
-        if (err) {
-          this.emit('state', (false))
-          return Logger.error(`Unable to connect to the database ${err}`)
-        }
+      mongoose.connect(process.env.DISCORD_MONGO_URI)
+      .then(() => {
         this.emit('state', (true))
         Logger.debug('Connected to the database.')
+      })
+      .catch((error) => {
+        this.emit('state', (false))
+        Logger.error(`Unable to connect to the database ${error}`)
       })
     }
   }
